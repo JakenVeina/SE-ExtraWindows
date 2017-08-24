@@ -1,0 +1,23 @@
+Running from: C:\Users\Jake\AppData\Local\Temp\tmpj5fsbjml 
+Command: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Slope_0E_1CUR_Constr1.fbx /o:.\ 
+: WARNING: 
+    Could not find Materials library folder.
+Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\default_grey_construction_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\default_grey_construction_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\default_grey_construction_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\default_grey_construction_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\default_grey_construction_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\default_grey_construction_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+C:\Users\Jake\AppData\Local\Temp\tmpj5fsbjml\Content\Window1x1Slope_0E_1CUR_Constr1.fbx: Processed
+: 
+    : Finished in 0.2s

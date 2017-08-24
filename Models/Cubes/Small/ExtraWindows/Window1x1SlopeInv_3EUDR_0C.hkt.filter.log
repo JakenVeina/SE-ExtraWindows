@@ -1,0 +1,12 @@
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Jake\AppData\Local\Temp\space_engineers_o4ufoy3n.hko -p C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindowsDev\Models\Cubes\Small\ExtraWindows\Window1x1SlopeInv_3EUDR_0C.hkt C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindowsDev\Models\Cubes\Small\ExtraWindows\Window1x1SlopeInv_3EUDR_0C.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Sun Jan 10 02:37:47 2016, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindowsDev\Models\Cubes\Small\ExtraWindows\Window1x1SlopeInv_3EUDR_0C.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

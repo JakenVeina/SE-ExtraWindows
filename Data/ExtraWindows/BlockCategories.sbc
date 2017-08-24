@@ -1,0 +1,135 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Extra Windows 1x1 Flat</DisplayName>
+			<Name>ExtraWindows_Window1x1Flat</Name>
+			<IsShipCategory>true</IsShipCategory>
+			<ItemIds>
+				<string>CubeBlock/Window1x1Flat</string>
+				<string>CubeBlock/Window1x1Flat_3Edge_0Corner</string>
+				<string>CubeBlock/Window1x1Flat_2EdgeOpp_0Corner</string>
+				<string>CubeBlock/Window1x1Flat_2EdgeAdj_0Corner</string>
+				<string>CubeBlock/Window1x1Flat_2EdgeAdj_1Corner</string>
+				<string>CubeBlock/Window1x1Flat_1Edge_2Corner</string>
+				<string>CubeBlock/Window1x1Flat_1Edge_1CornerLeft</string>
+				<string>CubeBlock/Window1x1Flat_1Edge_1CornerRight</string>
+				<string>CubeBlock/Window1x1Flat_1Edge_0Corner</string>
+				<string>CubeBlock/Window1x1Flat_0Edge_4Corner</string>
+				<string>CubeBlock/Window1x1Flat_0Edge_3Corner</string>
+				<string>CubeBlock/Window1x1Flat_0Edge_2CornerAdj</string>
+				<string>CubeBlock/Window1x1Flat_0Edge_2CornerOpp</string>
+				<string>CubeBlock/Window1x1Flat_0Edge_1Corner</string>
+				<string>CubeBlock/Window1x1Flat_0Edge_0Corner</string>
+
+				<string>CubeBlock/Window1x1FlatInv</string>
+				<string>CubeBlock/Window1x1FlatInv_3Edge_0Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_2EdgeOpp_0Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_2EdgeAdj_0Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_2EdgeAdj_1Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_1Edge_2Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_1Edge_1CornerLeft</string>
+				<string>CubeBlock/Window1x1FlatInv_1Edge_1CornerRight</string>
+				<string>CubeBlock/Window1x1FlatInv_1Edge_0Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_0Edge_4Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_0Edge_3Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_0Edge_2CornerAdj</string>
+				<string>CubeBlock/Window1x1FlatInv_0Edge_2CornerOpp</string>
+				<string>CubeBlock/Window1x1FlatInv_0Edge_1Corner</string>
+				<string>CubeBlock/Window1x1FlatInv_0Edge_0Corner</string>
+			</ItemIds>
+		</Category>
+    
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Extra Windows 1x1 Side</DisplayName>
+			<Name>ExtraWindows_Window1x1Side</Name>
+			<IsShipCategory>true</IsShipCategory>
+			<ItemIds>
+				<string>CubeBlock/Window1x1Side</string>
+				<string>CubeBlock/Window1x1Side_2EdgeBottom_0Corner</string>
+				<string>CubeBlock/Window1x1Side_2EdgeRight_0Corner</string>
+				<string>CubeBlock/Window1x1Side_1Edge_1Corner</string>
+				<string>CubeBlock/Window1x1Side_1Edge_0Corner</string>
+
+				<string>CubeBlock/Window1x1SideInv</string>
+				<string>CubeBlock/Window1x1SideInv_2EdgeBottom_0Corner</string>
+				<string>CubeBlock/Window1x1SideInv_2EdgeRight_0Corner</string>
+				<string>CubeBlock/Window1x1SideInv_1Edge_1Corner</string>
+				<string>CubeBlock/Window1x1SideInv_1Edge_0Corner</string>
+			</ItemIds>
+		</Category>
+
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>Extra Windows 1x1 Slope</DisplayName>
+			<Name>ExtraWindows_Window1x1Slope</Name>
+			<IsShipCategory>true</IsShipCategory>
+			<ItemIds>
+				<string>CubeBlock/Window1x1Slope</string>
+				<string>CubeBlock/Window1x1Slope_3EDLR_0C</string>
+				<string>CubeBlock/Window1x1Slope_3EUDR_0C</string>
+				<string>CubeBlock/Window1x1Slope_2ELR_0C</string>
+				<string>CubeBlock/Window1x1Slope_2EDR_1CUL</string>
+				<string>CubeBlock/Window1x1Slope_2EDR_0C</string>
+				<string>CubeBlock/Window1x1Slope_2EDL_1CUR</string>
+				<string>CubeBlock/Window1x1Slope_2EDL_0C</string>
+				<string>CubeBlock/Window1x1Slope_2EUD_0C</string>
+				<string>CubeBlock/Window1x1Slope_1EL_2CURDR</string>
+				<string>CubeBlock/Window1x1Slope_1EL_1CDR</string>
+				<string>CubeBlock/Window1x1Slope_1EL_1CUR</string>
+				<string>CubeBlock/Window1x1Slope_1EL_0C</string>
+				<string>CubeBlock/Window1x1Slope_1ED_2CULUR</string>
+				<string>CubeBlock/Window1x1Slope_1ED_1CUR</string>
+				<string>CubeBlock/Window1x1Slope_1ED_1CUL</string>
+				<string>CubeBlock/Window1x1Slope_1ED_0C</string>
+				<string>CubeBlock/Window1x1Slope_0E_4C</string>
+				<string>CubeBlock/Window1x1Slope_0E_3CULURDR</string>
+				<string>CubeBlock/Window1x1Slope_0E_3CULURDL</string>
+				<string>CubeBlock/Window1x1Slope_0E_2CURDL</string>
+				<string>CubeBlock/Window1x1Slope_0E_2CULDR</string>
+				<string>CubeBlock/Window1x1Slope_0E_2CULUR</string>
+				<string>CubeBlock/Window1x1Slope_0E_1CUR</string>
+				<string>CubeBlock/Window1x1Slope_0E_1CUL</string>
+				<string>CubeBlock/Window1x1Slope_0E_0C</string>
+
+				<string>CubeBlock/Window1x1SlopeInv</string>
+				<string>CubeBlock/Window1x1SlopeInv_3EDLR_0C</string>
+				<string>CubeBlock/Window1x1SlopeInv_3EUDR_0C</string>
+				<string>CubeBlock/Window1x1SlopeInv_2ELR_0C</string>
+				<string>CubeBlock/Window1x1SlopeInv_2EDR_1CUL</string>
+				<string>CubeBlock/Window1x1SlopeInv_2EDR_0C</string>
+				<string>CubeBlock/Window1x1SlopeInv_2EDL_1CUR</string>
+				<string>CubeBlock/Window1x1SlopeInv_2EDL_0C</string>
+				<string>CubeBlock/Window1x1SlopeInv_2EUD_0C</string>
+				<string>CubeBlock/Window1x1SlopeInv_1EL_2CURDR</string>
+				<string>CubeBlock/Window1x1SlopeInv_1EL_1CDR</string>
+				<string>CubeBlock/Window1x1SlopeInv_1EL_1CUR</string>
+				<string>CubeBlock/Window1x1SlopeInv_1EL_0C</string>
+				<string>CubeBlock/Window1x1SlopeInv_1ED_2CULUR</string>
+				<string>CubeBlock/Window1x1SlopeInv_1ED_1CUR</string>
+				<string>CubeBlock/Window1x1SlopeInv_1ED_1CUL</string>
+				<string>CubeBlock/Window1x1SlopeInv_1ED_0C</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_4C</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_3CULURDR</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_3CULURDL</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_2CURDL</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_2CULDR</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_2CULUR</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_1CUR</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_1CUL</string>
+				<string>CubeBlock/Window1x1SlopeInv_0E_0C</string>
+			</ItemIds>
+		</Category>
+	</CategoryClasses>
+</Definitions>

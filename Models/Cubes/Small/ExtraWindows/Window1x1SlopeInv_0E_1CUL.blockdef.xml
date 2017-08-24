@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>Window1x1SlopeInv_0E_1CUL_Small</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\Window1x1SlopeInv_0E_1CUL.dds</Icon>
+	<CubeSize>Small</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Small\ExtraWindows\Window1x1SlopeInv_0E_1CUL.mwm</Model>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1SlopeInv_0E_1CUL_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1SlopeInv_0E_1CUL_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.10" />
+		<MountPoint Side="Back" StartX="0.00" StartY="0.90" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.20" EndY="0.20" />
+		<MountPoint Side="Left" StartX="0.20" StartY="0.20" EndX="0.40" EndY="0.40" />
+		<MountPoint Side="Left" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.60" />
+		<MountPoint Side="Left" StartX="0.60" StartY="0.60" EndX="0.80" EndY="0.80" />
+		<MountPoint Side="Left" StartX="0.80" StartY="0.80" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.80" EndX="0.20" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.20" StartY="0.60" EndX="0.40" EndY="0.80" />
+		<MountPoint Side="Right" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.60" />
+		<MountPoint Side="Right" StartX="0.60" StartY="0.20" EndX="0.80" EndY="0.40" />
+		<MountPoint Side="Right" StartX="0.80" StartY="0.00" EndX="1.00" EndY="0.20" />
+	</MountPoints>
+	<MirroringBlock>Window1x1SlopeInv_0E_1CUR_Small</MirroringBlock>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	<BlockPairName>Window1x1SlopeInv_0E_1CUL</BlockPairName>
+</Definition>

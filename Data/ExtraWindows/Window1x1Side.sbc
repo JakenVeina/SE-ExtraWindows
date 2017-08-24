@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions>
+    <CubeBlocks>
+
+        <!-- 3Edge_0Corner -->    
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1Side.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="9" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_Constr2.mwm" />
+            </BuildProgressModels>
+      <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+            <BlockPairName>Window1x1Side</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_Small</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1Side.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1SideInv.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="9" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_Small</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1SideInv.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+
+        <!-- 2EdgeBottom_0Corner -->    
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_2EdgeBottom_0Corner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_2EdgeBottom_0Corner.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="5" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side_2EdgeBottom_0Corner</BlockPairName>
+            <MirroringBlock>Window1x1Side_2EdgeRight_0Corner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_2EdgeBottom_0Corner_Small</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_2EdgeBottom_0Corner.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side_2EdgeBottom_0Corner</BlockPairName>
+            <MirroringBlock>Window1x1Side_2EdgeRight_0Corner_Small</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_2EdgeBottom_0Corner</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_2EdgeBottom_0Corner.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="5" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv_2EdgeBottom_0Corner</BlockPairName>
+            <MirroringBlock>Window1x1SideInv_2EdgeRight_0Corner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_2EdgeBottom_0Corner_Small</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_2EdgeBottom_0Corner.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv_2EdgeBottom_0Corner</BlockPairName>
+            <MirroringBlock>Window1x1SideInv_2EdgeRight_0Corner_Small</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+
+        <!-- 2EdgeRight_0Corner -->    
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_2EdgeRight_0Corner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_2EdgeRight_0Corner.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeRight_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="5" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeRight_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeRight_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side_2EdgeRight_0Corner</BlockPairName>
+            <MirroringBlock>Window1x1Side_2EdgeBottom_0Corner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_2EdgeRight_0Corner_Small</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_2EdgeRight_0Corner.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1Side_2EdgeRight_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_2EdgeRight_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_2EdgeRight_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side_2EdgeRight_0Corner</BlockPairName>
+            <MirroringBlock>Window1x1Side_2EdgeBottom_0Corner_Small</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_2EdgeRight_0Corner</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_2EdgeRight_0Corner.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="5" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv_2EdgeRight_0Corner</BlockPairName>
+            <MirroringBlock>Window1x1SideInv_2EdgeBottom_0Corner</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_2EdgeRight_0Corner_Small</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_2EdgeRight_0Corner.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv_2EdgeRight_0Corner</BlockPairName>
+            <MirroringBlock>Window1x1SideInv_2EdgeBottom_0Corner_Small</MirroringBlock>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+
+        <!-- 1Edge_1Corner -->    
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_1Edge_1Corner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_1Edge_1Corner.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_1Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="3" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_1Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_1Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side_1Edge_1Corner</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_1Edge_1Corner_Small</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_1Edge_1Corner.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1Side_1Edge_1Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_1Edge_1Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_1Edge_1Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side_1Edge_1Corner</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_1Edge_1Corner</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_1Edge_1Corner.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_1Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="3" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_1Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_1Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv_1Edge_1Corner</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_1Edge_1Corner_Small</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_1Edge_1Corner.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1SideInv_1Edge_1Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_1Edge_1Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_1Edge_1Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv_1Edge_1Corner</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+
+        <!-- 1Edge_0Corner -->    
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_1Edge_0Corner</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_1Edge_0Corner.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="2" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side_1Edge_0Corner</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1Side_1Edge_0Corner_Small</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_1Edge_0Corner.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1Side_1Edge_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_1Edge_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1Side_1Edge_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1Side_1Edge_0Corner</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_1Edge_0Corner</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_1Edge_0Corner.dds</Icon>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="3" />
+                <Component Subtype="BulletproofGlass" Count="12" />
+                <Component Subtype="BulletproofGlass" Count="5" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv_1Edge_0Corner</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>Window1x1SideInv_1Edge_0Corner_Small</SubtypeId>
+            </Id>
+            <DisplayName>Window 1x1 Side Inv.</DisplayName>
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_1Edge_0Corner.dds</Icon>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ExtraWindows\Window1x1SideInv_1Edge_0Corner.mwm</Model>
+            <Components>
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="BulletproofGlass" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+            <BuildProgressModels>
+				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_1Edge_0Corner_Constr1.mwm" />
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ExtraWindows\Window1x1SideInv_1Edge_0Corner_Constr2.mwm" />
+            </BuildProgressModels>
+            <MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+            </MountPoints>
+            <BlockPairName>Window1x1SideInv_1Edge_0Corner</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <MirroringX>ZHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>MinusHalfX</MirroringZ>
+            <PhysicalMaterial>Glass</PhysicalMaterial>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>

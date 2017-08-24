@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model Name="Window1x1Slope_2ELR_0C">
+	<Parameter Name="RescaleFactor">1.0</Parameter>
+	<Parameter Name="RescaleToLengthInMeters">false</Parameter>
+	<Parameter Name="Centered">false</Parameter>
+	<Parameter Name="SpecularPower">10.0</Parameter>
+	<Parameter Name="SpecularShininess">0.8</Parameter>
+	<Material Name="Model_Pane_2ELR_0C">
+		<Parameter Name="Technique">GLASS</Parameter>
+		<Parameter Name="SpecularIntensity">30.0</Parameter>
+		<Parameter Name="SpecularPower">42.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="GlassMaterialCCW">GlassCCW_2EdgeOpp_0Corner</Parameter>
+		<Parameter Name="GlassMaterialCW">GlassCW_2EdgeOpp_0Corner</Parameter>
+		<Parameter Name="GlassSmooth">False</Parameter>
+		<Parameter Name="DiffuseTexture">Textures\Particles\SquareWindowDirt.DDS</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="Frame">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">2.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Textures\Models\Cubes\WindowTexture_me.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\WindowTexture_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\WindowTexture_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\WindowTexture_add.dds</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+</Model>

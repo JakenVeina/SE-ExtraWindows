@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition>
+	<Id>
+		<SubtypeId>Window1x1Flat_2EdgeOpp_0Corner</SubtypeId>
+	</Id>
+	<Icon>Textures\Icons\Window1x1Flat_2EdgeOpp_0Corner.dds</Icon>
+	<CubeSize>Large</CubeSize>
+	<BlockTopology>TriangleMesh</BlockTopology>
+	<Size x="1" y="1" z="1" />
+	<ModelOffset x="0" y="0" z="0" />
+	<Model>Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeOpp_0Corner.mwm</Model>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeOpp_0Corner_Constr1.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeOpp_0Corner_Constr2.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Back" StartX="0.96" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
+		<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Bottom" StartX="0.96" StartY="0.00" EndX="1.00" EndY="1.00" />
+		<MountPoint Side="Top" StartX="0.96" StartY="0.00" EndX="1.00" EndY="1.00" />
+	</MountPoints>
+	<MirroringX>Y</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>None</MirroringZ>
+	<BlockPairName>Window1x1Flat_2EdgeOpp_0Corner</BlockPairName>
+</Definition>

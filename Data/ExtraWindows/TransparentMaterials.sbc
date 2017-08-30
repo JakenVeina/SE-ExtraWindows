@@ -152,6 +152,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -227,6 +228,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -302,6 +304,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -377,6 +380,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -452,6 +456,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -527,6 +532,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -602,6 +608,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -677,6 +684,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -752,6 +760,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -827,6 +836,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -902,6 +912,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -977,6 +988,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1052,6 +1064,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1127,6 +1140,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1202,6 +1216,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <!-- SideGlass -->
@@ -1278,6 +1293,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1353,6 +1369,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1428,6 +1445,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1503,6 +1521,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1578,6 +1597,7 @@
 	  </ColorAdd>
       <Reflectivity>0.03</Reflectivity>
 	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
   </TransparentMaterials>
 </Definitions>

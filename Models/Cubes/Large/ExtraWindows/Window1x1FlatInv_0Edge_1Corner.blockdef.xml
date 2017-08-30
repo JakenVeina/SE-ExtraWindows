@@ -3,7 +3,7 @@
 	<Id>
 		<SubtypeId>Window1x1FlatInv_0Edge_1Corner</SubtypeId>
 	</Id>
-	<Icon>Textures\Icons\Window1x1FlatInv_0Edge_1Corner.dds</Icon>
+	<Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_1Corner.dds</Icon>
 	<CubeSize>Large</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
 	<Size x="1" y="1" z="1" />

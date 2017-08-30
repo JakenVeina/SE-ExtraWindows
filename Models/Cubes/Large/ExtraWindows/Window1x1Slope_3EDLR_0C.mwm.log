@@ -1,9 +1,13 @@
-Running from: C:\Users\Jake\AppData\Local\Temp\tmp4ue3m7ix 
-Command: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Slope_3EDLR_0C.fbx /o:.\ 
+Running from: C:\Users\Ross\AppData\Local\Temp\tmpgei9ivh7 
+Command: C:\Users\Ross\Desktop\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Slope_3EDLR_0C.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
+: WARNING: 
+    Sections may not properly work if "Preserve Instances" is not unchecked when exporting FBX model
 Textures\Particles\SquareWindowDirt.DDS: WARNING: 
     Texture DiffuseTexture does not exists!
+Dummy.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
 Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
     Texture DiffuseTexture does not exists!
 Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
@@ -84,6 +88,6 @@ Textures\Models\Cubes\WindowTexture_ng.dds: WARNING:
     Texture NormalGlossTexture does not exists!
 Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
     Texture AddMapsTexture does not exists!
-C:\Users\Jake\AppData\Local\Temp\tmp4ue3m7ix\Content\Window1x1Slope_3EDLR_0C.fbx: Processed
+C:\Users\Ross\AppData\Local\Temp\tmpgei9ivh7\Content\Window1x1Slope_3EDLR_0C.fbx: Processed
 : 
     : Finished in 0.1s

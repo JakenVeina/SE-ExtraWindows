@@ -3,7 +3,7 @@
 	<Id>
 		<SubtypeId>Window1x1Flat_Small</SubtypeId>
 	</Id>
-	<Icon>Textures\Icons\Window1x1Flat.dds</Icon>
+	<Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat.dds</Icon>
 	<CubeSize>Small</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
 	<Size x="1" y="1" z="1" />
@@ -20,7 +20,7 @@
 		<MountPoint Side="Bottom" StartX="0.96" StartY="0.00" EndX="1.00" EndY="1.00" />
 		<MountPoint Side="Top" StartX="0.96" StartY="0.00" EndX="1.00" EndY="1.00" />
 	</MountPoints>
-	<MirroringX>Y</MirroringX>
+	<MirroringX>None</MirroringX>
 	<MirroringY>None</MirroringY>
 	<MirroringZ>None</MirroringZ>
 	<BlockPairName>Window1x1Flat</BlockPairName>

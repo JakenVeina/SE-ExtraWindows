@@ -5,7 +5,7 @@
 	<Parameter Name="Centered">false</Parameter>
 	<Parameter Name="SpecularPower">10.0</Parameter>
 	<Parameter Name="SpecularShininess">0.8</Parameter>
-	<Material Name="Glass_0E_1CUL">
+	<Material Name="GlassCCW_0Edge_1Corner">
 		<Parameter Name="Technique">GLASS</Parameter>
 		<Parameter Name="SpecularIntensity">30.0</Parameter>
 		<Parameter Name="SpecularPower">42.0</Parameter>
@@ -34,6 +34,23 @@
 		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\WindowTexture_cm.dds</Parameter>
 		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\WindowTexture_ng.dds</Parameter>
 		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\WindowTexture_add.dds</Parameter>
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="GlassCW_0Edge_1Corner">
+		<Parameter Name="Technique">GLASS</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="GlassMaterialCCW">fake</Parameter>
+		<Parameter Name="GlassMaterialCW">fake</Parameter>
+		<Parameter Name="GlassSmooth">False</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
 		<!--material has no AlphamaskTexture-->
 	</Material>
 </Model>

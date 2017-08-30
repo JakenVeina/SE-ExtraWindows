@@ -3,7 +3,7 @@
 	<Id>
 		<SubtypeId>Window1x1SlopeInv_2EDL_1CUR</SubtypeId>
 	</Id>
-	<Icon>Textures\Icons\Window1x1SlopeInv_2EDL_1CUR.dds</Icon>
+	<Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDL_1CUR.dds</Icon>
 	<CubeSize>Large</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
 	<Size x="1" y="1" z="1" />

@@ -1,6 +1,158 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TransparentMaterials>
+  
+	<!--Overwrites for any leftover vanilla windows-->
+	<TransparentMaterial>
+	  <Id>
+		<TypeId>TransparentMaterialDefinition</TypeId>
+		<SubtypeId>WindowInside</SubtypeId>
+	  </Id>
+	  <AlphaMistingEnable>false</AlphaMistingEnable>
+	  <AlphaSaturation>1</AlphaSaturation>
+	  <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
+	  <IgnoreDepth>false</IgnoreDepth>
+	  <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
+	  <Texture>Textures\Particles\SquareWindowDirtInside.dds</Texture>
+	  <UseAtlas>false</UseAtlas>
+	  <NeedSort>true</NeedSort>
+	  <UVOffset>
+		<X>0</X>
+		<Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+	    <X>0.25</X>
+		<Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+	  <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
+    </TransparentMaterial>
+	<TransparentMaterial>
+	  <Id>
+		  <TypeId>TransparentMaterialDefinition</TypeId>
+		  <SubtypeId>GlassOutside</SubtypeId>
+	  </Id>      
+	  <AlphaMistingEnable>false</AlphaMistingEnable>
+	  <AlphaSaturation>1</AlphaSaturation>
+	  <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
+	  <IgnoreDepth>false</IgnoreDepth>
+	  <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
+	<Texture>Textures\Particles\SquareWindowDirtInside.dds</Texture>
+	  <UseAtlas>false</UseAtlas>
+	  <NeedSort>true</NeedSort>
+	  <UVOffset>
+		<X>0</X>
+		<Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		<X>1</X>
+		<Y>1</Y>
+	  </UVSize>
+	  <Color>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+	  <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
+	  <IsFlareOccluder>true</IsFlareOccluder>
+    </TransparentMaterial>
+	
+  
+	<!--Start of Extra Windows material definitions-->
+	<TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>GlassCW_4Edge</SubtypeId>
+      </Id>      
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>1</AlphaSaturation>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\SquareWindowDirt_4Edge_0Corner.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
+    </TransparentMaterial>
+    <TransparentMaterial>
+      <Id>
+        <TypeId>TransparentMaterialDefinition</TypeId>
+        <SubtypeId>GlassCCW_4Edge</SubtypeId>
+      </Id>      
+      <AlphaMistingEnable>false</AlphaMistingEnable>
+      <AlphaSaturation>1</AlphaSaturation>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
+      <Emissivity>0</Emissivity>
+      <IgnoreDepth>false</IgnoreDepth>
+      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <Texture>Textures\Particles\SquareWindowDirt_4Edge_0Corner.dds</Texture>
+      <UseAtlas>false</UseAtlas>
+      <NeedSort>true</NeedSort>
+      <UVOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </UVOffset>
+      <UVSize>
+        <X>1</X>
+        <Y>1</Y>
+      </UVSize>
+      <Color>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
+    </TransparentMaterial>
 
     <TransparentMaterial>
       <Id>
@@ -9,7 +161,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -25,12 +177,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -39,7 +198,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -55,12 +214,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -70,7 +236,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -86,12 +252,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -100,7 +273,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -116,12 +289,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -131,7 +311,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -147,12 +327,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -161,7 +348,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -177,12 +364,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -192,7 +386,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -208,12 +402,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -222,7 +423,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -238,12 +439,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -253,7 +461,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -269,12 +477,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -283,7 +498,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -299,12 +514,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -314,7 +536,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -330,12 +552,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -344,7 +573,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -360,12 +589,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -375,7 +611,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -391,12 +627,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -405,7 +648,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -421,12 +664,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -436,7 +686,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -452,12 +702,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -466,7 +723,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -482,12 +739,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -497,7 +761,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -513,12 +777,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -527,7 +798,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -543,12 +814,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -558,7 +836,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -574,12 +852,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -588,7 +873,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -604,12 +889,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -619,7 +911,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -635,12 +927,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -649,7 +948,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -665,12 +964,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -680,7 +986,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -696,12 +1002,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -710,7 +1023,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -726,12 +1039,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -741,7 +1061,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -757,12 +1077,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -771,7 +1098,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -787,12 +1114,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -802,7 +1136,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -818,12 +1152,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -832,7 +1173,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -848,12 +1189,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <!-- SideGlass -->
@@ -864,7 +1212,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -880,12 +1228,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -894,7 +1249,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -910,12 +1265,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -925,7 +1287,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -941,12 +1303,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -955,7 +1324,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -971,12 +1340,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -986,7 +1362,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -1002,12 +1378,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1016,7 +1399,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -1032,12 +1415,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1047,7 +1437,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -1063,12 +1453,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1077,7 +1474,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -1093,12 +1490,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
 
     <TransparentMaterial>
@@ -1108,7 +1512,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -1124,12 +1528,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.156</W>
-      </Color>
-      <Reflectivity>0.196</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.1</W>
+	  </Color>
+	  <ShadowMultiplier>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>10</W>
+	  </ShadowMultiplier>
+      <Reflectivity>0.02</Reflectivity>
+	  <Fresnel>1.05</Fresnel>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1138,7 +1549,7 @@
       </Id>      
       <AlphaMistingEnable>false</AlphaMistingEnable>
       <AlphaSaturation>1</AlphaSaturation>
-      <CanBeAffectedByOtherLights>false</CanBeAffectedByOtherLights>
+      <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
@@ -1154,13 +1565,19 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0</X>
-        <Y>0.15</Y>
-        <Z>0.4</Z>
-        <W>0.588</W>
-      </Color>
-      <Reflectivity>0.862</Reflectivity>
+        <X>0.5</X>
+		<Y>0.5</Y>
+		<Z>0.5</Z>
+		<W>0.15</W>
+	  </Color>
+	  <ColorAdd>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0.75</W>
+	  </ColorAdd>
+      <Reflectivity>0.03</Reflectivity>
+	  <Fresnel>2</Fresnel>
     </TransparentMaterial>
-
   </TransparentMaterials>
 </Definitions>

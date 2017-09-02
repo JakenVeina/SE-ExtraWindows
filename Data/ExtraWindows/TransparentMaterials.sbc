@@ -25,16 +25,16 @@
 		<Y>0.25</Y>
 	  </UVSize>
 	  <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
 	  <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -102,16 +102,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -178,16 +178,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -254,16 +254,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -330,16 +330,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -406,16 +406,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -482,16 +482,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -558,16 +558,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -634,16 +634,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -710,16 +710,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -786,16 +786,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -862,16 +862,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -938,16 +938,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -1014,16 +1014,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -1090,16 +1090,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -1166,16 +1166,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -1243,16 +1243,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -1319,16 +1319,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -1395,16 +1395,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -1471,16 +1471,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>
@@ -1547,16 +1547,16 @@
         <Y>1</Y>
       </UVSize>
       <Color>
-        <X>0.5</X>
+		<X>0.5</X>
 		<Y>0.5</Y>
 		<Z>0.5</Z>
-		<W>0.1</W>
+		<W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
 		<X>0</X>
 		<Y>0</Y>
 		<Z>0</Z>
-		<W>10</W>
+		<W>1</W>
 	  </ShadowMultiplier>
       <Reflectivity>0.02</Reflectivity>
 	  <Fresnel>1.05</Fresnel>

@@ -3,7 +3,7 @@
 	<Id>
 		<SubtypeId>Window1x1SlopeInv_0E_0C_Small</SubtypeId>
 	</Id>
-	<Icon>Textures\Icons\Window1x1SlopeInv_0E_0C.dds</Icon>
+	<Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_0C.dds</Icon>
 	<CubeSize>Small</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
 	<Size x="1" y="1" z="1" />

@@ -3,7 +3,7 @@
 	<Id>
 		<SubtypeId>Window1x1Slope_2EDL_0C</SubtypeId>
 	</Id>
-	<Icon>Textures\Icons\Window1x1Slope_2EDL_0C.dds</Icon>
+	<Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDL_0C.dds</Icon>
 	<CubeSize>Large</CubeSize>
 	<BlockTopology>TriangleMesh</BlockTopology>
 	<Size x="1" y="1" z="1" />

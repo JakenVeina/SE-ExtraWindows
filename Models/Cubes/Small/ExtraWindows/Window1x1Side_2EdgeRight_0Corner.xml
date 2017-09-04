@@ -5,7 +5,7 @@
 	<Parameter Name="Centered">false</Parameter>
 	<Parameter Name="SpecularPower">10.0</Parameter>
 	<Parameter Name="SpecularShininess">0.8</Parameter>
-	<Material Name="Glass_2EdgeBottom_0Corner">
+	<Material Name="SideGlassCCW_2EdgeBottom_0Corner">
 		<Parameter Name="Technique">GLASS</Parameter>
 		<Parameter Name="SpecularIntensity">30.0</Parameter>
 		<Parameter Name="SpecularPower">42.0</Parameter>
@@ -16,6 +16,23 @@
 		<Parameter Name="GlassMaterialCW">SideGlassCW_2EdgeBottom_0Corner</Parameter>
 		<Parameter Name="GlassSmooth">False</Parameter>
 		<Parameter Name="DiffuseTexture">Textures\Particles\SquareWindowDirt.DDS</Parameter>
+		<!--material has no NormalTexture-->
+		<!--material has no ColorMetalTexture-->
+		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="SideGlassCW_2EdgeBottom_0Corner">
+		<Parameter Name="Technique">GLASS</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="GlassMaterialCCW">fake</Parameter>
+		<Parameter Name="GlassMaterialCW">fake</Parameter>
+		<Parameter Name="GlassSmooth">False</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
 		<!--material has no NormalTexture-->
 		<!--material has no ColorMetalTexture-->
 		<!--material has no NormalGlossTexture-->

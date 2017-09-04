@@ -18,5 +18,9 @@
 		<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="0.04" EndY="1.00" />
 		<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
 	</MountPoints>
+	<MirroringBlock>Window1x1Side_2EdgeBottom_0Corner_Small</MirroringBlock>
+	<MirroringX>ZHalfX</MirroringX>
+	<MirroringY>HalfX</MirroringY>
+	<MirroringZ>MinusHalfX</MirroringZ>
 	<BlockPairName>Window1x1Side_2EdgeRight_0Corner</BlockPairName>
 </Definition>

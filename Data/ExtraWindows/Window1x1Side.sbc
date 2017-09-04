@@ -37,6 +37,24 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1Side_2EdgeBottom_0Corner</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1Side_2EdgeRight_0Corner</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1Side_1Edge_1Corner</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1Side_1Edge_0Corner</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
         </Definition>
         <Definition>
             <Id>
@@ -71,6 +89,24 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1Side_2EdgeBottom_0Corner_Small</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1Side_2EdgeRight_0Corner_Small</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1Side_1Edge_1Corner_Small</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1Side_1Edge_0Corner_Small</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
         </Definition>
         <Definition>
             <Id>
@@ -106,6 +142,24 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1SideInv_2EdgeBottom_0Corner</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1SideInv_2EdgeRight_0Corner</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1SideInv_1Edge_1Corner</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1SideInv_1Edge_0Corner</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
         </Definition>
         <Definition>
             <Id>
@@ -140,6 +194,24 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1SideInv_2EdgeBottom_0Corner_Small</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1SideInv_2EdgeRight_0Corner_Small</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1SideInv_1Edge_1Corner_Small</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>CubeBlock</TypeId>
+					<SubtypeId>Window1x1SideInv_1Edge_0Corner_Small</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
         </Definition>
 
         <!-- 2EdgeBottom_0Corner -->    
@@ -150,6 +222,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_2EdgeBottom_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -186,6 +259,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_2EdgeBottom_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -221,6 +295,7 @@
             </Id>
             <DisplayName>Window 1x1 Side Inv.</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_2EdgeBottom_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -257,6 +332,7 @@
             </Id>
             <DisplayName>Window 1x1 Side Inv.</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_2EdgeBottom_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -294,6 +370,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_2EdgeRight_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -330,6 +407,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_2EdgeRight_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -365,6 +443,7 @@
             </Id>
             <DisplayName>Window 1x1 Side Inv.</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_2EdgeRight_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -401,6 +480,7 @@
             </Id>
             <DisplayName>Window 1x1 Side Inv.</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_2EdgeRight_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -438,6 +518,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_1Edge_1Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -473,6 +554,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_1Edge_1Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -507,6 +589,7 @@
             </Id>
             <DisplayName>Window 1x1 Side Inv.</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_1Edge_1Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -542,6 +625,7 @@
             </Id>
             <DisplayName>Window 1x1 Side Inv.</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_1Edge_1Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -578,6 +662,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_1Edge_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -613,6 +698,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Side</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side_1Edge_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -647,6 +733,7 @@
             </Id>
             <DisplayName>Window 1x1 Side Inv.</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_1Edge_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -682,6 +769,7 @@
             </Id>
             <DisplayName>Window 1x1 Side Inv.</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv_1Edge_0Corner.dds</Icon>
+            <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />

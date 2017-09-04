@@ -1,137 +1,141 @@
-Running from: C:\Users\Jake\AppData\Local\Temp\tmpziqdby_m 
-Command: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1FlatInv.fbx /o:.\ 
+Running from: C:\Users\Ross\AppData\Local\Temp\tmpedafq9yy 
+Command: C:\Users\Ross\Desktop\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1FlatInv.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
+: WARNING: 
+    Sections may not properly work if "Preserve Instances" is not unchecked when exporting FBX model
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
+Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+    Texture AddMapsTexture does not exists!
 Textures\Particles\SquareWindowDirt.DDS: WARNING: 
     Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
+Dummy.dds: WARNING: 
     Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
-    Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
-    Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-C:\Users\Jake\AppData\Local\Temp\tmpziqdby_m\Content\Window1x1FlatInv.fbx: Processed
+C:\Users\Ross\AppData\Local\Temp\tmpedafq9yy\Content\Window1x1FlatInv.fbx: Processed
 : 
-    : Finished in 0.2s
+    : Finished in 0.1s

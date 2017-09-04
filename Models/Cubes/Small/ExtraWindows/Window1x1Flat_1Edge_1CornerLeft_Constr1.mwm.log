@@ -1,31 +1,25 @@
-Running from: C:\Users\Jake\AppData\Local\Temp\tmp8ia3ttjs 
-Command: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Flat_1Edge_1CornerLeft_Constr1.fbx /o:.\ 
+Running from: C:\Users\Ross\AppData\Local\Temp\tmpedafq9yy 
+Command: C:\Users\Ross\Desktop\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Flat_1Edge_1CornerLeft_Constr1.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
 Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
     Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_cm.dds: WARNING: 
+Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_ng.dds: WARNING: 
+Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
 Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
     Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_cm.dds: WARNING: 
+Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_ng.dds: WARNING: 
+Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
 Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
     Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_cm.dds: WARNING: 
+Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_ng.dds: WARNING: 
+Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-C:\Users\Jake\AppData\Local\Temp\tmp8ia3ttjs\Content\Window1x1Flat_1Edge_1CornerLeft_Constr1.fbx: Processed
+C:\Users\Ross\AppData\Local\Temp\tmpedafq9yy\Content\Window1x1Flat_1Edge_1CornerLeft_Constr1.fbx: Processed
 : 
     : Finished in 0.1s

@@ -1,5 +1,5 @@
-Running from: C:\Users\Jake\AppData\Local\Temp\tmp3m2wx90u 
-Command: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1SlopeInv_0E_1CUL.fbx /o:.\ 
+Running from: C:\Users\Ross\AppData\Local\Temp\tmpgei9ivh7 
+Command: C:\Users\Ross\Desktop\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1SlopeInv_0E_1CUL.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
 Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
@@ -20,6 +20,8 @@ Textures\Models\Cubes\WindowTexture_add.dds: WARNING:
     Texture AddMapsTexture does not exists!
 Textures\Particles\SquareWindowDirt.DDS: WARNING: 
     Texture DiffuseTexture does not exists!
-C:\Users\Jake\AppData\Local\Temp\tmp3m2wx90u\Content\Window1x1SlopeInv_0E_1CUL.fbx: Processed
+Dummy.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+C:\Users\Ross\AppData\Local\Temp\tmpgei9ivh7\Content\Window1x1SlopeInv_0E_1CUL.fbx: Processed
 : 
     : Finished in 0.1s

@@ -10,7 +10,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope.dds</Icon>
-			<Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -48,7 +47,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
 			<BlockVariants>
 				<BlockVariant>
 					<TypeId>CubeBlock</TypeId>
@@ -159,7 +157,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope.dds</Icon>
-			<Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -196,7 +193,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
 			<BlockVariants>
 				<BlockVariant>
 					<TypeId>CubeBlock</TypeId>
@@ -307,7 +303,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv.dds</Icon>
-			<Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -345,7 +340,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
 			<BlockVariants>
 				<BlockVariant>
 					<TypeId>CubeBlock</TypeId>
@@ -456,7 +450,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv.dds</Icon>
-			<Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -493,7 +486,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
 			<BlockVariants>
 				<BlockVariant>
 					<TypeId>CubeBlock</TypeId>
@@ -606,7 +598,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_3EDLR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -645,7 +636,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -654,7 +644,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_3EDLR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -692,7 +681,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -701,7 +689,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_3EDLR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -740,7 +727,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -749,7 +735,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_3EDLR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -787,7 +772,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 3EUDR_0C -->
@@ -798,7 +782,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_3EUDR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -837,7 +820,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -846,7 +828,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_3EUDR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -884,7 +865,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -893,7 +873,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_3EUDR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -932,7 +911,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -941,7 +919,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_3EUDR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -979,7 +956,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 2ELR_0C -->
@@ -990,7 +966,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2ELR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1029,7 +1004,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1038,7 +1012,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2ELR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1076,7 +1049,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1085,7 +1057,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2ELR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1124,7 +1095,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1133,7 +1103,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2ELR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1171,7 +1140,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 2EDR_1CUL -->
@@ -1182,7 +1150,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDR_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1222,7 +1189,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1231,7 +1197,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDR_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1270,7 +1235,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1279,7 +1243,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDR_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1319,7 +1282,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1328,7 +1290,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDR_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1367,7 +1328,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 2EDR_0C -->
@@ -1378,7 +1338,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1418,7 +1377,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1427,7 +1385,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1466,7 +1423,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1475,7 +1431,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1515,7 +1470,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1524,7 +1478,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDR_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1563,7 +1516,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 2EDL_1CUR -->
@@ -1574,7 +1526,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDL_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1614,7 +1565,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1623,7 +1573,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDL_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1662,7 +1611,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1671,7 +1619,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDL_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1711,7 +1658,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1720,7 +1666,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDL_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1759,7 +1704,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 2EDL_0C -->
@@ -1770,7 +1714,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDL_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1810,7 +1753,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1819,7 +1761,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EDL_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1858,7 +1799,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1867,7 +1807,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDL_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1907,7 +1846,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -1916,7 +1854,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EDL_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1955,7 +1892,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 2EUD_0C -->
@@ -1966,7 +1902,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EUD_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2005,7 +1940,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2014,7 +1948,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_2EUD_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2052,7 +1985,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2061,7 +1993,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EUD_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2100,7 +2031,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2109,7 +2039,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_2EUD_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2147,7 +2076,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 1EL_2CURDR -->
@@ -2158,7 +2086,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1EL_2CURDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2197,7 +2124,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2206,7 +2132,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1EL_2CURDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2244,7 +2169,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2253,7 +2177,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1EL_2CURDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2292,7 +2215,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2301,7 +2223,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1EL_2CURDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2339,7 +2260,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 1EL_1CDR -->
@@ -2350,7 +2270,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1EL_1CDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2390,7 +2309,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2399,7 +2317,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1EL_1CDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2438,7 +2355,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2447,7 +2363,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1EL_1CDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2487,7 +2402,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2496,7 +2410,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1EL_1CDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2535,7 +2448,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 1EL_1CUR -->
@@ -2546,7 +2458,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1EL_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2586,7 +2497,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2595,7 +2505,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1EL_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2634,7 +2543,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2643,7 +2551,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1EL_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2683,7 +2590,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2692,7 +2598,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1EL_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2731,7 +2636,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 1EL_0C -->
@@ -2742,7 +2646,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1EL_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2781,7 +2684,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2790,7 +2692,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1EL_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2828,7 +2729,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2837,7 +2737,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1EL_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2876,7 +2775,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2885,7 +2783,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1EL_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2923,7 +2820,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 1ED_2CULUR -->
@@ -2934,7 +2830,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1ED_2CULUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2973,7 +2868,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -2982,7 +2876,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1ED_2CULUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3020,7 +2913,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3029,7 +2921,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1ED_2CULUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3068,7 +2959,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3077,7 +2967,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1ED_2CULUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3115,7 +3004,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 1ED_1CUR -->
@@ -3126,7 +3014,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1ED_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3166,7 +3053,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3175,7 +3061,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1ED_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3214,7 +3099,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3223,7 +3107,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1ED_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3263,7 +3146,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3272,7 +3154,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1ED_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3311,7 +3192,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 1ED_1CUL -->
@@ -3322,7 +3202,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1ED_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3362,7 +3241,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3371,7 +3249,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1ED_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3410,7 +3287,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3419,7 +3295,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1ED_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3459,7 +3334,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3468,7 +3342,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1ED_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3507,7 +3380,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 1ED_0C -->
@@ -3518,7 +3390,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1ED_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3557,7 +3428,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3566,7 +3436,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_1ED_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3604,7 +3473,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3613,7 +3481,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1ED_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3652,7 +3519,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3661,7 +3527,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_1ED_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3699,7 +3564,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_4C -->
@@ -3710,7 +3574,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_4C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3749,7 +3612,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3758,7 +3620,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_4C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3796,7 +3657,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3805,7 +3665,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_4C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3844,7 +3703,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3853,7 +3711,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_4C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3891,7 +3748,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_3CULURDR -->
@@ -3902,7 +3758,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_3CULURDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3942,7 +3797,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3951,7 +3805,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_3CULURDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -3990,7 +3843,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -3999,7 +3851,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_3CULURDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4039,7 +3890,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4048,7 +3898,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_3CULURDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4087,7 +3936,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_3CULURDL -->
@@ -4098,7 +3946,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_3CULURDL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4138,7 +3985,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4147,7 +3993,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_3CULURDL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4186,7 +4031,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4195,7 +4039,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_3CULURDL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4235,7 +4078,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4244,7 +4086,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_3CULURDL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4283,7 +4124,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_2CURDL -->
@@ -4294,7 +4134,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_2CURDL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4334,7 +4173,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4343,7 +4181,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_2CURDL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4382,7 +4219,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4391,7 +4227,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_2CURDL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4431,7 +4266,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4440,7 +4274,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_2CURDL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4479,7 +4312,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_2CULDR -->
@@ -4490,7 +4322,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_2CULDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4530,7 +4361,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4539,7 +4369,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_2CULDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4578,7 +4407,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4587,7 +4415,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_2CULDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4627,7 +4454,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4636,7 +4462,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_2CULDR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4675,7 +4500,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_2CULUR -->
@@ -4686,7 +4510,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_2CULUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4725,7 +4548,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4734,7 +4556,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_2CULUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4772,7 +4593,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4781,7 +4601,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_2CULUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4820,7 +4639,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4829,7 +4647,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_2CULUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4867,7 +4684,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_1CUR -->
@@ -4878,7 +4694,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4918,7 +4733,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4927,7 +4741,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -4966,7 +4779,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -4975,7 +4787,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5014,7 +4825,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -5023,7 +4833,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_1CUR.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5061,7 +4870,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_1CUL -->
@@ -5072,7 +4880,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5112,7 +4919,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -5121,7 +4927,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5160,7 +4965,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -5169,7 +4973,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5209,7 +5012,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -5218,7 +5020,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_1CUL.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5257,7 +5058,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
         <!-- 0E_0C -->
@@ -5268,7 +5068,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5306,7 +5105,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -5315,7 +5113,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope_0E_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5353,7 +5150,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -5362,7 +5158,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5400,7 +5195,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -5409,7 +5203,6 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Slope</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv_0E_0C.dds</Icon>
-			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -5447,7 +5240,6 @@
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>6</BuildTimeSeconds>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU>
         </Definition>
 
     </CubeBlocks>

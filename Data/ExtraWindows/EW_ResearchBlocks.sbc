@@ -1,0 +1,1302 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+  
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+  
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_3Edge_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeOpp_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeAdj_1Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeAdj_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_2Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_1CornerRight" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_1CornerLeft" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_4Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_3Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_2CornerOpp" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_2CornerAdj" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_1Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_3Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeOpp_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeAdj_1Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeAdj_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_2Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_1CornerRight_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_1CornerLeft_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_4Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_3Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_2CornerOpp_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_2CornerAdj_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_1Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_3Edge_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeOpp_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeAdj_1Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeAdj_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_2Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_1CornerRight" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_1CornerLeft" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_4Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_3Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_2CornerOpp" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_2CornerAdj" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_1Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_3Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeOpp_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeAdj_1Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeAdj_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_2Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_1CornerRight_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_1CornerLeft_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_4Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_3Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_2CornerOpp_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_2CornerAdj_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_1Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_2EdgeBottom_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_2EdgeRight_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_1Edge_1Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_1Edge_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_2EdgeBottom_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_2EdgeRight_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_1Edge_1Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_1Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_2EdgeBottom_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_2EdgeRight_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_1Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_0Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_2EdgeBottom_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_2EdgeRight_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_1Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_3EDLR_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_3EUDR_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+		  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2ELR_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDR_1CUL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDR_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDL_1CUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDL_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EUD_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_2CURDR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_1CDR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_1CUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_2CULUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_1CUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_1CUL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_4C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_3CULURDR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_3CULURDL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CURDL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CULDR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CULUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_1CUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_1CUL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_3EDLR_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_3EUDR_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2ELR_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDR_1CUL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDR_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDL_1CUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDL_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EUD_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_2CURDR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_1CDR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_1CUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_2CULUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_1CUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_1CUL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_4C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_3CULURDR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_3CULURDL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CURDL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CULDR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CULUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_1CUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_1CUL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	  
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_3EDLR_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_3EUDR_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2ELR_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDR_1CUL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDR_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDL_1CUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDL_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EUD_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_2CURDR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_1CDR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_1CUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_2CULUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_1CUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_1CUL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_4C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_3CULURDR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_3CULURDL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CURDL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CULDR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CULUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_1CUR" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_1CUL" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_0C" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_3EDLR_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_3EUDR_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2ELR_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDR_1CUL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDR_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDL_1CUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDL_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EUD_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_2CURDR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_1CDR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_1CUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_2CULUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_1CUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_1CUL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_4C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_3CULURDR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_3CULURDL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CURDL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CULDR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CULUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_1CUR_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_1CUL_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_0C_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+	<ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_0Corner_Small" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+	
+	
+  </ResearchBlocks>
+</Definitions>

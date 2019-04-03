@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TransparentMaterials>
-  
+  <!--CW is Inside and CCW is Outside-->
 	<!--Overwrites for any leftover vanilla windows-->
 	<TransparentMaterial>
 	  <Id>
@@ -13,31 +13,48 @@
 	  <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
 	  <IgnoreDepth>false</IgnoreDepth>
 	  <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
-	  <Texture>Textures\Particles\SquareWindowDirtInside.dds</Texture>
+	  <Texture>Textures\Particles\SquareWindowDirtInside_ca.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
 	  <UseAtlas>false</UseAtlas>
 	  <NeedSort>true</NeedSort>
 	  <UVOffset>
-		<X>0</X>
-		<Y>0</Y>
+		  <X>0</X>
+		  <Y>0</Y>
 	  </UVOffset>
 	  <UVSize>
-	    <X>0.25</X>
-		<Y>0.25</Y>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
 	  </UVSize>
 	  <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-	  <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
 	<TransparentMaterial>
 	  <Id>
@@ -49,31 +66,48 @@
 	  <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
 	  <IgnoreDepth>false</IgnoreDepth>
 	  <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
-	<Texture>Textures\Particles\SquareWindowDirtInside.dds</Texture>
+	  <Texture>Textures\Particles\SquareWindowDirtInside.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
 	  <UseAtlas>false</UseAtlas>
 	  <NeedSort>true</NeedSort>
 	  <UVOffset>
-		<X>0</X>
-		<Y>0</Y>
+		  <X>0</X>
+		  <Y>0</Y>
 	  </UVOffset>
 	  <UVSize>
-		<X>1</X>
-		<Y>1</Y>
+		  <X>1</X>
+		  <Y>1</Y>
 	  </UVSize>
-	  <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-	  <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 	
@@ -91,30 +125,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_4Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -126,32 +177,49 @@
       <CanBeAffectedByOtherLights>true</CanBeAffectedByOtherLights>
       <Emissivity>0</Emissivity>
       <IgnoreDepth>false</IgnoreDepth>
-      <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
+      <SoftParticleDistanceScale>1</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_4Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -167,30 +235,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -204,30 +289,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -243,30 +345,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_1Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -280,30 +399,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_1Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -319,30 +455,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_2CornerAdj.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -356,30 +509,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_2CornerAdj.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -395,30 +565,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_2CornerOpp.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -432,30 +619,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_2CornerOpp.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -471,30 +675,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_3Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -508,30 +729,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_3Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -547,30 +785,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_4Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -584,30 +839,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_0Edge_4Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -623,30 +895,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_1Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -660,30 +949,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_1Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -699,30 +1005,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_1Edge_1CornerLeft.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
+	  </Color>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -736,30 +1059,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_1Edge_1CornerLeft.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -775,30 +1115,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_1Edge_1CornerRight.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -812,30 +1169,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_1Edge_1CornerRight.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -851,30 +1225,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_1Edge_2Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -888,30 +1279,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_1Edge_2Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -927,30 +1335,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_2EdgeAdj_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -964,30 +1389,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_2EdgeAdj_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -1003,30 +1445,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_2EdgeAdj_1Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1040,30 +1499,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_2EdgeAdj_1Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -1079,30 +1555,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_2EdgeOpp_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1116,30 +1609,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_2EdgeOpp_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -1155,30 +1665,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_3Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1192,30 +1719,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SquareWindowDirt_3Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -1232,30 +1776,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1269,30 +1830,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -1308,30 +1886,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt_2EdgeBottom_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1345,30 +1940,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt_2EdgeBottom_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -1384,30 +1996,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt_2EdgeRight_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1421,30 +2050,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt_2EdgeRight_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -1460,30 +2106,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt_1Edge_1Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1497,30 +2160,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt_1Edge_1Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
 
@@ -1536,30 +2216,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt_1Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-		<X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>0.25</X>
+		  <Y>0.25</Y>
+	  </UVSize>
+	  <Color>
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.15</W>
 	  </Color>
+	  <ColorAdd>
+		  <X>0.0</X>
+		  <Y>0.0</Y>
+		  <Z>0.0</Z>
+		  <W>0.0</W>
+	  </ColorAdd>
 	  <ShadowMultiplier>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>1</W>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>4.0</W>
 	  </ShadowMultiplier>
-      <Reflectivity>0.02</Reflectivity>
-	  <Fresnel>1.05</Fresnel>
+	  <LightMultiplier>
+		  <X>0.055</X>
+		  <Y>0.055</Y>
+		  <Z>0.055</Z>
+		  <W>0.055</W>
+	  </LightMultiplier>
+      <Reflectivity>0.06</Reflectivity>
+	  <Fresnel>0.25</Fresnel>
+	  <ReflectionShadow>0.4</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>3</SpecularColorFactor>
     </TransparentMaterial>
     <TransparentMaterial>
       <Id>
@@ -1573,30 +2270,47 @@
       <IgnoreDepth>false</IgnoreDepth>
       <SoftParticleDistanceScale>1000</SoftParticleDistanceScale>
       <Texture>Textures\Particles\SideWindowDirt_1Edge_0Corner.dds</Texture>
+	  <GlossTexture>Textures\Models\Cubes\Chrome_ng.dds</GlossTexture>
       <UseAtlas>false</UseAtlas>
       <NeedSort>true</NeedSort>
       <UVOffset>
-        <X>0</X>
-        <Y>0</Y>
-      </UVOffset>
-      <UVSize>
-        <X>1</X>
-        <Y>1</Y>
-      </UVSize>
-      <Color>
-        <X>0.5</X>
-		<Y>0.5</Y>
-		<Z>0.5</Z>
-		<W>0.15</W>
+		  <X>0</X>
+		  <Y>0</Y>
+	  </UVOffset>
+	  <UVSize>
+		  <X>1</X>
+		  <Y>1</Y>
+	  </UVSize>
+	  <Color>   
+		  <X>1</X>
+		  <Y>1</Y>
+		  <Z>1</Z>
+		  <W>0.03</W>
 	  </Color>
 	  <ColorAdd>
-		<X>0</X>
-		<Y>0</Y>
-		<Z>0</Z>
-		<W>0.75</W>
+		<X>0.0</X>
+		<Y>0.0</Y>
+		<Z>0.0</Z>
+		<W>0.9</W>
 	  </ColorAdd>
-      <Reflectivity>0.03</Reflectivity>
-	  <Fresnel>2</Fresnel>
+	  <ShadowMultiplier>
+		  <X>0</X>
+		  <Y>0</Y>
+		  <Z>0</Z>
+		  <W>0</W>
+	  </ShadowMultiplier>
+	  <LightMultiplier>
+		  <X>0.15</X>
+		  <Y>0.15</Y>
+		  <Z>0.15</Z>
+		  <W>0.15</W>
+	  </LightMultiplier>
+	  <Reflectivity>0.1</Reflectivity>
+	  <Fresnel>1.0</Fresnel>
+	  <ReflectionShadow>0.2</ReflectionShadow>
+	  <Gloss>0.4</Gloss>
+	  <GlossTextureAdd>0.55</GlossTextureAdd>
+	  <SpecularColorFactor>20</SpecularColorFactor>
 	  <IsFlareOccluder>true</IsFlareOccluder>
     </TransparentMaterial>
   </TransparentMaterials>

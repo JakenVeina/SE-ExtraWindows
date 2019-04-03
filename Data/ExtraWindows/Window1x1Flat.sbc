@@ -10,6 +10,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat.dds</Icon>
+			<Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -39,6 +40,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 			<BlockVariants>
 				<BlockVariant>
 					<TypeId>CubeBlock</TypeId>
@@ -105,6 +107,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat.dds</Icon>
+			<Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -133,6 +136,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 			<BlockVariants>
 				<BlockVariant>
 					<TypeId>CubeBlock</TypeId>
@@ -199,6 +203,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv.dds</Icon>
+			<Description>Description_Window</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -228,6 +233,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 			<BlockVariants>
 				<BlockVariant>
 					<TypeId>CubeBlock</TypeId>
@@ -294,6 +300,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv.dds</Icon>
+			<Description>Description_Window</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="1" />
@@ -322,6 +329,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 			<BlockVariants>
 				<BlockVariant>
 					<TypeId>CubeBlock</TypeId>
@@ -390,6 +398,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_3Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -420,6 +429,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -429,6 +439,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_3Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -458,6 +469,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -467,6 +479,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_3Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -497,6 +510,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -506,6 +520,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_3Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -535,6 +550,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -546,6 +562,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_2EdgeOpp_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -576,6 +593,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -585,6 +603,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_2EdgeOpp_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -614,6 +633,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -623,6 +643,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_2EdgeOpp_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -653,6 +674,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -662,6 +684,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_2EdgeOpp_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -691,6 +714,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -702,6 +726,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_2EdgeAdj_1Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -732,6 +757,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -741,6 +767,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_2EdgeAdj_1Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -770,6 +797,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -779,6 +807,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_2EdgeAdj_1Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -809,6 +838,7 @@
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -818,6 +848,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_2EdgeAdj_1Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -847,6 +878,7 @@
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -858,6 +890,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_2EdgeAdj_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -888,6 +921,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -897,6 +931,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_2EdgeAdj_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -926,6 +961,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -935,6 +971,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_2EdgeAdj_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -965,6 +1002,7 @@
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -974,6 +1012,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_2EdgeAdj_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1003,6 +1042,7 @@
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -1014,6 +1054,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_1Edge_2Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1044,6 +1085,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1053,6 +1095,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_1Edge_2Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1082,6 +1125,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1091,6 +1135,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_1Edge_2Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1121,6 +1166,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1130,6 +1176,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_1Edge_2Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1159,6 +1206,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -1170,6 +1218,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_1Edge_1CornerRight.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1201,6 +1250,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1210,6 +1260,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_1Edge_1CornerRight.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1240,6 +1291,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1249,6 +1301,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_1Edge_1CornerRight.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1280,6 +1333,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1289,6 +1343,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_1Edge_1CornerRight.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1319,6 +1374,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -1330,6 +1386,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_1Edge_1CornerLeft.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1361,6 +1418,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1370,6 +1428,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_1Edge_1CornerLeft.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1400,6 +1459,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1409,6 +1469,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_1Edge_1CornerLeft.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1440,6 +1501,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1449,6 +1511,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_1Edge_1CornerLeft.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1479,6 +1542,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -1490,6 +1554,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_1Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1520,6 +1585,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1529,6 +1595,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_1Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1558,6 +1625,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1567,6 +1635,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_1Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1597,6 +1666,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1606,6 +1676,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_1Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1635,6 +1706,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -1646,6 +1718,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_4Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1676,6 +1749,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1685,6 +1759,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_4Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1714,6 +1789,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1723,6 +1799,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_4Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1753,6 +1830,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1762,6 +1840,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_4Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1791,6 +1870,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -1802,6 +1882,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_3Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1832,6 +1913,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1841,6 +1923,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_3Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1870,6 +1953,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1879,6 +1963,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_3Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1909,6 +1994,7 @@
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1918,6 +2004,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_3Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1947,6 +2034,7 @@
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -1958,6 +2046,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_2CornerOpp.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1988,6 +2077,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -1997,6 +2087,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_2CornerOpp.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2026,6 +2117,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2035,6 +2127,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_2CornerOpp.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2065,6 +2158,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2074,6 +2168,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_2CornerOpp.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2103,6 +2198,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -2114,6 +2210,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_2CornerAdj.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2144,6 +2241,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2153,6 +2251,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_2CornerAdj.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2182,6 +2281,7 @@
             <MirroringY>X</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2191,6 +2291,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_2CornerAdj.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2221,6 +2322,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2230,6 +2332,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_2CornerAdj.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2259,6 +2362,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -2270,6 +2374,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_1Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2300,6 +2405,7 @@
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2309,6 +2415,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_1Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2338,6 +2445,7 @@
             <MirroringY>MinusHalfX</MirroringY>
             <MirroringZ>HalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2347,6 +2455,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_1Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2377,6 +2486,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2386,6 +2496,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_1Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2415,6 +2526,7 @@
             <MirroringY>HalfX</MirroringY>
             <MirroringZ>MinusHalfX</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 
@@ -2426,6 +2538,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2455,6 +2568,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2464,6 +2578,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1Flat</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat_0Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2493,6 +2608,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2502,6 +2618,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2531,6 +2648,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
         <Definition>
@@ -2540,6 +2658,7 @@
             </Id>
             <DisplayName>DisplayName_Block_Window1x1FlatInv</DisplayName>
             <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv_0Edge_0Corner.dds</Icon>
+			<Description>Description_Window</Description>
             <GuiVisible>false</GuiVisible>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -2569,6 +2688,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
+			<PCU>1</PCU> 
 
         </Definition>
 

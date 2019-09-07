@@ -5,21 +5,21 @@
 	<Parameter Name="Centered">false</Parameter>
 	<Parameter Name="SpecularPower">10.0</Parameter>
 	<Parameter Name="SpecularShininess">0.8</Parameter>
-	<Material Name="Frame">
+	<Material Name="PaintedMetal_Colorable">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="SpecularIntensity">0.0</Parameter>
-		<Parameter Name="SpecularPower">2.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
 		<Parameter Name="DiffuseColorX">255</Parameter>
 		<Parameter Name="DiffuseColorY">255</Parameter>
 		<Parameter Name="DiffuseColorZ">255</Parameter>
-		<Parameter Name="DiffuseTexture">Textures\Models\Cubes\WindowTexture_me.dds</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
 		<!--material has no NormalTexture-->
-		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\WindowTexture_cm.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\WindowTexture_ng.dds</Parameter>
-		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\WindowTexture_add.dds</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalColorable_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\PaintedMetalColorable_add.dds</Parameter>
 		<!--material has no AlphamaskTexture-->
 	</Material>
-	<Material Name="SideGlassCW_2EdgeRight_0Corner">
+	<Material Name="SideGlassCW_2EdgeBottom_0Corner">
 		<Parameter Name="Technique">GLASS</Parameter>
 		<Parameter Name="SpecularIntensity">0.0</Parameter>
 		<Parameter Name="SpecularPower">0.0</Parameter>
@@ -46,10 +46,24 @@
 		<Parameter Name="GlassMaterialCCW">SideGlassCCW_2EdgeRight_0Corner</Parameter>
 		<Parameter Name="GlassMaterialCW">SideGlassCW_2EdgeRight_0Corner</Parameter>
 		<Parameter Name="GlassSmooth">False</Parameter>
-		<Parameter Name="DiffuseTexture">Textures\Particles\SquareWindowDirt.DDS</Parameter>
+		<!--material has no DiffuseTexture-->
 		<!--material has no NormalTexture-->
 		<!--material has no ColorMetalTexture-->
 		<!--material has no NormalGlossTexture-->
+		<!--material has no AddMapsTexture-->
+		<!--material has no AlphamaskTexture-->
+	</Material>
+	<Material Name="PaintedMetal_Darker">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="SpecularIntensity">0.0</Parameter>
+		<Parameter Name="SpecularPower">0.0</Parameter>
+		<Parameter Name="DiffuseColorX">255</Parameter>
+		<Parameter Name="DiffuseColorY">255</Parameter>
+		<Parameter Name="DiffuseColorZ">255</Parameter>
+		<Parameter Name="DiffuseTexture">Dummy.dds</Parameter>
+		<!--material has no NormalTexture-->
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\PaintedMetalDarker_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\PaintedMetalColorable_ng.dds</Parameter>
 		<!--material has no AddMapsTexture-->
 		<!--material has no AlphamaskTexture-->
 	</Material>

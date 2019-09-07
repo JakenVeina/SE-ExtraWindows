@@ -5,32 +5,18 @@
 	<Parameter Name="Centered">false</Parameter>
 	<Parameter Name="SpecularPower">10.0</Parameter>
 	<Parameter Name="SpecularShininess">0.8</Parameter>
-	<Material Name="Default_gray">
+	<Material Name="Construction">
 		<Parameter Name="Technique">MESH</Parameter>
 		<Parameter Name="SpecularIntensity">10.0</Parameter>
 		<Parameter Name="SpecularPower">0.8</Parameter>
 		<Parameter Name="DiffuseColorX">255</Parameter>
 		<Parameter Name="DiffuseColorY">255</Parameter>
 		<Parameter Name="DiffuseColorZ">255</Parameter>
-		<Parameter Name="DiffuseTexture">Textures\Models\Cubes\default_grey_construction_de.dds</Parameter>
+		<!--material has no DiffuseTexture-->
 		<!--material has no NormalTexture-->
-		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Chrome_cm.DDS</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.DDS</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\Chrome_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\Chrome_ng.dds</Parameter>
 		<!--material has no AddMapsTexture-->
-		<!--material has no AlphamaskTexture-->
-	</Material>
-	<Material Name="Frame">
-		<Parameter Name="Technique">MESH</Parameter>
-		<Parameter Name="SpecularIntensity">0.0</Parameter>
-		<Parameter Name="SpecularPower">2.0</Parameter>
-		<Parameter Name="DiffuseColorX">255</Parameter>
-		<Parameter Name="DiffuseColorY">255</Parameter>
-		<Parameter Name="DiffuseColorZ">255</Parameter>
-		<Parameter Name="DiffuseTexture">Textures\Models\Cubes\WindowTexture_me.dds</Parameter>
-		<!--material has no NormalTexture-->
-		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\WindowTexture_cm.dds</Parameter>
-		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\WindowTexture_ng.dds</Parameter>
-		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\WindowTexture_add.dds</Parameter>
 		<!--material has no AlphamaskTexture-->
 	</Material>
 </Model>

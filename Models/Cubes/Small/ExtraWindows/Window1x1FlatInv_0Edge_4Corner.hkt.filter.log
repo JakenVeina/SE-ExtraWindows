@@ -1,1 +1,13 @@
-Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Ross\AppData\Local\Temp\space_engineers_glhcjcis.hko -p C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Models\Cubes\Small\ExtraWindows\Window1x1FlatInv_0Edge_4Corner.hkt C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Models\Cubes\Small\ExtraWindows\Window1x1FlatInv_0Edge_4Corner.hkt 
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Ross\AppData\Local\Temp\space_engineers_u5fgk6mv.hko -p C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Blender Files\ExtraWindows\Models\Cubes\Small\ExtraWindows\Window1x1FlatInv_0Edge_4Corner.hkt C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Blender Files\ExtraWindows\Models\Cubes\Small\ExtraWindows\Window1x1FlatInv_0Edge_4Corner.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Sat Sep 07 23:04:34 2019, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        [0xabbabfd2] Warning : 'Collision' - Calculated 'extra radius' for box shape is 0. Performance may be affected.
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Blender Files\ExtraWindows\Models\Cubes\Small\ExtraWindows\Window1x1FlatInv_0Edge_4Corner.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 1 Warnings ==========

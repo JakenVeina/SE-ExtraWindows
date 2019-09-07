@@ -1,39 +1,29 @@
-Running from: C:\Users\Ross\AppData\Local\Temp\tmpkedl0k3x 
-Command: C:\Users\Ross\Desktop\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Side_1Edge_1Corner_Constr1.fbx /o:.\ 
+Running from: C:\Users\Ross\AppData\Local\Temp\tmp1g_lgd7j 
+Command: C:\Users\Ross\Desktop\Space Engineers Stuff\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Side_1Edge_1Corner_Constr1.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
 : WARNING: 
     Sections may not properly work if "Preserve Instances" is not unchecked when exporting FBX model
-Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\default_grey_construction_de.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\Chrome_cm.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\Chrome_ng.DDS: WARNING: 
+Textures\Models\Cubes\Chrome_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-C:\Users\Ross\AppData\Local\Temp\tmpkedl0k3x\Content\Window1x1Side_1Edge_1Corner_Constr1.fbx: Processed
+C:\Users\Ross\AppData\Local\Temp\tmp1g_lgd7j\Content\Window1x1Side_1Edge_1Corner_Constr1.fbx: Processed
 : 
     : Finished in 0.1s

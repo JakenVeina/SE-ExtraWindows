@@ -1,43 +1,39 @@
-Running from: C:\Users\Ross\AppData\Local\Temp\tmpgei9ivh7 
-Command: C:\Users\Ross\Desktop\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Slope_1ED_1CUL.fbx /o:.\ 
+Running from: C:\Users\Ross\AppData\Local\Temp\tmp84821_6w 
+Command: C:\Users\Ross\Desktop\Space Engineers Stuff\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1Slope_1ED_1CUL.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
-Textures\Particles\SquareWindowDirt.DDS: WARNING: 
+Dummy.dds: WARNING: 
     Texture DiffuseTexture does not exists!
 Dummy.dds: WARNING: 
     Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalDarker_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
-    Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_add.dds: WARNING: 
     Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_add.dds: WARNING: 
     Texture AddMapsTexture does not exists!
-Textures\Models\Cubes\WindowTexture_me.dds: WARNING: 
-    Texture DiffuseTexture does not exists!
-Textures\Models\Cubes\WindowTexture_cm.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_cm.dds: WARNING: 
     Texture ColorMetalTexture does not exists!
-Textures\Models\Cubes\WindowTexture_ng.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_ng.dds: WARNING: 
     Texture NormalGlossTexture does not exists!
-Textures\Models\Cubes\WindowTexture_add.dds: WARNING: 
+Textures\Models\Cubes\PaintedMetalColorable_add.dds: WARNING: 
     Texture AddMapsTexture does not exists!
-C:\Users\Ross\AppData\Local\Temp\tmpgei9ivh7\Content\Window1x1Slope_1ED_1CUL.fbx: Processed
+Dummy.dds: WARNING: 
+    Texture DiffuseTexture does not exists!
+Textures\Models\Cubes\PaintedMetalDarker_cm.dds: WARNING: 
+    Texture ColorMetalTexture does not exists!
+Textures\Models\Cubes\PaintedMetalColorable_ng.dds: WARNING: 
+    Texture NormalGlossTexture does not exists!
+C:\Users\Ross\AppData\Local\Temp\tmp84821_6w\Content\Window1x1Slope_1ED_1CUL.fbx: Processed
 : 
     : Finished in 0.2s

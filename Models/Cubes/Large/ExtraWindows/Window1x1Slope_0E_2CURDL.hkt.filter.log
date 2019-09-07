@@ -1,1 +1,12 @@
-Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Ross\AppData\Local\Temp\space_engineers_rct4v8_3.hko -p C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CURDL.hkt C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CURDL.hkt 
+Command: C:\Program Files\Havok\HavokContentTools\hctStandAloneFilterManager.exe -t -s C:\Users\Ross\AppData\Local\Temp\space_engineers_303npe27.hko -p C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Blender Files\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CURDL.hkt C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Blender Files\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CURDL.hkt 
+[ Processing All Configurations... ]
+    
+    ========== Started: Sat Sep 07 23:06:13 2019, Configuration: default ==========
+    
+    [ [Physics 2012] Create Rigid Bodies Filter ]
+        Created 1 rigid bodies.
+    [ Prune Types Filter ]
+    [ Write to Platform Filter ]
+        Wrote layout for [Tagfile] to file [C:\Users\Ross\Desktop\Space Engineers Stuff\Custom Mod Work\Blender Files\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CURDL.hkt].
+    
+    ========== Finished in 00:00:00, 0 Errors, 0 Warnings ==========

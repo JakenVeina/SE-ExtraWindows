@@ -1,11 +1,9 @@
-Running from: C:\Users\Ross\AppData\Local\Temp\tmpgei9ivh7 
-Command: C:\Users\Ross\Desktop\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1SlopeInv_0E_0C.fbx /o:.\ 
+Running from: C:\Users\Ross\AppData\Local\Temp\tmp84821_6w 
+Command: C:\Users\Ross\Desktop\Space Engineers Stuff\MwmBuilder\MwmBuilder.exe /s:Content /m:Window1x1SlopeInv_0E_0C.fbx /o:.\ 
 : WARNING: 
     Could not find Materials library folder.
-Textures\Particles\SquareWindowDirt.DDS: WARNING: 
-    Texture DiffuseTexture does not exists!
 Dummy.dds: WARNING: 
     Texture DiffuseTexture does not exists!
-C:\Users\Ross\AppData\Local\Temp\tmpgei9ivh7\Content\Window1x1SlopeInv_0E_0C.fbx: Processed
+C:\Users\Ross\AppData\Local\Temp\tmp84821_6w\Content\Window1x1SlopeInv_0E_0C.fbx: Processed
 : 
-    : Finished in 0.1s
+    : Finished in 0.2s

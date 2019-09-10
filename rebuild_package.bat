@@ -2,6 +2,7 @@ rmdir  /S  /Q  ..\ExtraWindows
 
 mkdir  ..\ExtraWindows
 copy thumb.jpg  ..\ExtraWindows
+copy metadata.mod ..\ExtraWindows
 copy modinfo.sbmi ..\ExtraWindows
 
 mkdir  ..\ExtraWindows\Data

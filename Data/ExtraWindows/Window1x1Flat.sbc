@@ -40,65 +40,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU> 
-			<BlockVariants>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_3Edge_0Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_2EdgeOpp_0Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_2EdgeAdj_1Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_2EdgeAdj_0Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_1Edge_2Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_1Edge_1CornerRight</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_1Edge_1CornerLeft</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_1Edge_0Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_4Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_3Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_2CornerOpp</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_2CornerAdj</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_1Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_0Corner</SubtypeId>
-				</BlockVariant>
-			</BlockVariants>
+			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -136,65 +78,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU> 
-			<BlockVariants>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_3Edge_0Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_2EdgeOpp_0Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_2EdgeAdj_1Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_2EdgeAdj_0Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_1Edge_2Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_1Edge_1CornerRight_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_1Edge_1CornerLeft_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_1Edge_0Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_4Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_3Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_2CornerOpp_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_2CornerAdj_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_1Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1Flat_0Edge_0Corner_Small</SubtypeId>
-				</BlockVariant>
-			</BlockVariants>
+			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -233,65 +117,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU> 
-			<BlockVariants>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_3Edge_0Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_2EdgeOpp_0Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_2EdgeAdj_1Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_2EdgeAdj_0Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_1Edge_2Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_1Edge_1CornerRight</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_1Edge_1CornerLeft</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_1Edge_0Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_4Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_3Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_2CornerOpp</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_2CornerAdj</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_1Corner</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_0Corner</SubtypeId>
-				</BlockVariant>
-			</BlockVariants>
+			<PCU>1</PCU>
         </Definition>
         <Definition>
             <Id>
@@ -329,65 +155,7 @@
             <MirroringY>None</MirroringY>
             <MirroringZ>None</MirroringZ>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-			<PCU>1</PCU> 
-			<BlockVariants>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_3Edge_0Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_2EdgeOpp_0Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_2EdgeAdj_1Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_2EdgeAdj_0Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_1Edge_2Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_1Edge_1CornerRight_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_1Edge_1CornerLeft_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_1Edge_0Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_4Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_3Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_2CornerOpp_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_2CornerAdj_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_1Corner_Small</SubtypeId>
-				</BlockVariant>
-				<BlockVariant>
-					<TypeId>CubeBlock</TypeId>
-					<SubtypeId>Window1x1FlatInv_0Edge_0Corner_Small</SubtypeId>
-				</BlockVariant>
-			</BlockVariants>
+			<PCU>1</PCU>
         </Definition>
 
         <!-- 3Edge_0Corner -->

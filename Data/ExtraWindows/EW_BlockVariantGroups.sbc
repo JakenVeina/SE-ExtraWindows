@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlockVariantGroups>
+
+        <!-- Windows -->
+		
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EW_Windows1x1_Flat" />
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1Flat.dds</Icon>
+            <DisplayName>Extra Windows 1x1 Flat</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+				<!--Large Grid-->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_3Edge_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeOpp_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeAdj_1Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeAdj_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_2Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_1CornerRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_1CornerLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_4Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_3Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_2CornerOpp" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_2CornerAdj" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_1Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_0Corner" />
+				<!--Small Grid-->
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_3Edge_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeOpp_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeAdj_1Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_2EdgeAdj_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_2Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_1CornerRight_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_1CornerLeft_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_1Edge_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_4Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_3Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_2CornerOpp_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_2CornerAdj_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_1Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat_0Edge_0Corner_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EW_Windows1x1_FlatInv" />
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Flat\Window1x1FlatInv.dds</Icon>
+            <DisplayName>Extra Windows 1x1 Flat Inv.</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+				<!--Large Grid-->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_3Edge_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeOpp_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeAdj_1Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeAdj_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_2Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_1CornerRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_1CornerLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_4Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_3Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_2CornerOpp" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_2CornerAdj" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_1Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_0Corner" />
+				<!--Small Grid-->
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_3Edge_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeOpp_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeAdj_1Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_2EdgeAdj_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_2Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_1CornerRight_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_1CornerLeft_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_1Edge_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_4Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_3Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_2CornerOpp_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_2CornerAdj_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_1Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv_0Edge_0Corner_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+
+		
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EW_Windows1x1_Side" />
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1Side.dds</Icon>
+            <DisplayName>Extra Windows 1x1 Side</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+				<!--Large Grid-->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_2EdgeBottom_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_2EdgeRight_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_1Edge_1Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_1Edge_0Corner" />
+				<!--Small Grid-->
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_2EdgeBottom_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_2EdgeRight_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_1Edge_1Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Side_1Edge_0Corner_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EW_Windows1x1_SideInv" />
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Side\Window1x1SideInv.dds</Icon>
+            <DisplayName>Extra Windows 1x1 Side Inv.</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+				<!--Large Grid-->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_2EdgeBottom_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_2EdgeRight_0Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_1Corner" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_0Corner" />
+				<!--Small Grid-->
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_2EdgeBottom_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_2EdgeRight_0Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_1Corner_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SideInv_1Edge_0Corner_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EW_Windows1x1_Slope" />
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1Slope.dds</Icon>
+            <DisplayName>Extra Windows 1x1 Slope</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+				<!--Large Grid-->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_3EDLR_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_3EUDR_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2ELR_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDR_1CUL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDR_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDL_1CUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDL_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EUD_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_2CURDR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_1CDR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_1CUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_2CULUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_1CUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_1CUL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_4C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_3CULURDR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_3CULURDL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CURDL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CULDR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CULUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_1CUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_1CUL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_0C" />
+				<!--Small Grid-->
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_3EDLR_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_3EUDR_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2ELR_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDR_1CUL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDR_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDL_1CUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EDL_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_2EUD_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_2CURDR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_1CDR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_1CUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1EL_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_2CULUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_1CUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_1CUL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_1ED_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_4C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_3CULURDR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_3CULURDL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CURDL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CULDR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_2CULUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_1CUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_1CUL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Slope_0E_0C_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EW_Windows1x1_SlopeInv" />
+            <Icon>Textures\Icons\ExtraWindows\Window1x1Slope\Window1x1SlopeInv.dds</Icon>
+            <DisplayName>Extra Windows 1x1 Slope Inv.</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+				<!--Large Grid-->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_3EDLR_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_3EUDR_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2ELR_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDR_1CUL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDR_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDL_1CUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDL_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EUD_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_2CURDR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_1CDR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_1CUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_2CULUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_1CUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_1CUL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_0C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_4C" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_3CULURDR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_3CULURDL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CURDL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CULDR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CULUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_1CUR" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_1CUL" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_0C" />
+				<!--Small Grid-->
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_3EDLR_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_3EUDR_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2ELR_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDR_1CUL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDR_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDL_1CUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EDL_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_2EUD_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_2CURDR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_1CDR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_1CUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1EL_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_2CULUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_1CUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_1CUL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_1ED_0C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_4C_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_3CULURDR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_3CULURDL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CURDL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CULDR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_2CULUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_1CUR_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_1CUL_Small" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1SlopeInv_0E_0C_Small" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		
+		<!--Vanilla Group Fixes and Overrides because Keen has no logic-->
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EW_Van_1x1Faces" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x1Face.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowSmallCornerGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Face" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Inv" />
+            </Blocks>
+        </BlockVariantGroup>
+		
+		<BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="EW_Van_1x2Windows" />
+            <Icon>Textures\GUI\Icons\Cubes\Window1x2Flat.dds</Icon>
+            <DisplayName>DisplayName_BlockGroup_WindowMediumGroup</DisplayName>
+            <Description>Description_Window</Description>
+            <Blocks>
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Flat" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2FlatInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Slope" />
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Face" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Inv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideLeftInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRightInv" />
+            </Blocks>
+        </BlockVariantGroup>
+
+
+    </BlockVariantGroups>
+</Definitions>

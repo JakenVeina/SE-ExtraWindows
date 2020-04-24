@@ -263,8 +263,12 @@
             <DisplayName>DisplayName_BlockGroup_WindowSmallCornerGroup</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
+				<!--Large Grid-->
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Face" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Inv" />
+				<!--New Vanilla Small Grid-->
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Face" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x1Inv" />
             </Blocks>
         </BlockVariantGroup>
 		
@@ -274,6 +278,7 @@
             <DisplayName>DisplayName_BlockGroup_WindowMediumGroup</DisplayName>
             <Description>Description_Window</Description>
             <Blocks>
+				<!--Large Grid-->
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Flat" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2FlatInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2Slope" />
@@ -283,9 +288,18 @@
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideLeftInv" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRight" />
                 <Block Type="MyObjectBuilder_CubeBlock" Subtype="Window1x2SideRightInv" />
+				<!--New Vanilla Small Grid-->
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Flat" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2FlatInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Slope" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Face" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2Inv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideLeft" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideLeftInv" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideRight" />
+                <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallWindow1x2SideRightInv" />
             </Blocks>
-        </BlockVariantGroup>
-
+        </BlockVariantGroup>	
 
     </BlockVariantGroups>
 </Definitions>

@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>359122880000</ElapsedGameTime>
+  <ElapsedGameTime>397393280000</ElapsedGameTime>
   <SessionName>ExtraWindowsTestWorld</SessionName>
   <SpectatorPosition>
-    <Position x="155.14140194815394" y="107.64132402717668" z="136.39140222864302" />
+    <Position x="155.14140194815394" y="107.64132402717665" z="136.391402228643" />
     <Forward x="-0.577350259" y="-0.577350259" z="-0.5773503" />
     <Up x="-0.408248276" y="0.8164966" z="-0.408248276" />
     <Orientation>
@@ -14,14 +14,15 @@
       <W>0.880476236</W>
     </Orientation>
   </SpectatorPosition>
+  <SpectatorSpeed x="0.1" y="1" />
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
   <CameraController>Entity</CameraController>
   <CameraEntity>152508250267203973</CameraEntity>
   <ControlledObject>152508250267203973</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2016-02-23T11:45:19.8203669-06:00</LastSaveTime>
-  <SpectatorDistance>109.674332</SpectatorDistance>
+  <LastSaveTime>2020-04-26T18:13:46.0243305-05:00</LastSaveTime>
+  <SpectatorDistance>2.98777175</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
     <SelectedSlot xsi:nil="true" />
@@ -30,49 +31,66 @@
         <Index>0</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-            <SubtypeId>Window1x1Flat</SubtypeId>
-          </DefinitionId>
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat" />
         </Data>
       </Slot>
       <Slot>
         <Index>1</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-            <SubtypeId>Window1x1FlatInv</SubtypeId>
-          </DefinitionId>
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>2</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>3</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>4</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>5</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
         </Data>
       </Slot>
       <Slot>
         <Index>7</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-            <SubtypeId>AngleGrinder4Item</SubtypeId>
-          </DefinitionId>
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder4Item" />
         </Data>
       </Slot>
       <Slot>
         <Index>8</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-            <SubtypeId>Welder4Item</SubtypeId>
-          </DefinitionId>
+          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
         </Data>
       </Slot>
     </Slots>
+    <SlotsGamepad />
   </CharacterToolbar>
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key xsi:type="xsd:long">152508250267203973</Key>
-        <Value xsi:type="PlayerId">
+        <Key>152508250267203973</Key>
+        <Value>
           <ClientId>76561198009490124</ClientId>
           <SerialId>0</SerialId>
         </Value>
@@ -82,12 +100,21 @@
   <Settings xsi:type="MyObjectBuilder_SessionSettings">
     <GameMode>Creative</GameMode>
     <InventorySizeMultiplier>1</InventorySizeMultiplier>
+    <BlocksInventorySizeMultiplier>1</BlocksInventorySizeMultiplier>
     <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>OFFLINE</OnlineMode>
     <MaxPlayers>4</MaxPlayers>
     <MaxFloatingObjects>256</MaxFloatingObjects>
+    <MaxBackupSaves>5</MaxBackupSaves>
+    <MaxGridSize>0</MaxGridSize>
+    <MaxBlocksPerPlayer>0</MaxBlocksPerPlayer>
+    <TotalPCU>600000</TotalPCU>
+    <PiratePCU>50000</PiratePCU>
+    <MaxFactionsCount>0</MaxFactionsCount>
+    <BlockLimitsEnabled>NONE</BlockLimitsEnabled>
+    <EnableRemoteBlockRemoval>true</EnableRemoteBlockRemoval>
     <EnvironmentHostility>SAFE</EnvironmentHostility>
     <AutoHealing>true</AutoHealing>
     <EnableCopyPaste>true</EnableCopyPaste>
@@ -96,7 +123,6 @@
     <ThrusterDamage>false</ThrusterDamage>
     <CargoShipsEnabled>true</CargoShipsEnabled>
     <EnableSpectator>false</EnableSpectator>
-    <RemoveTrash>false</RemoveTrash>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>true</RespawnShipDelete>
     <ResetOwnership>false</ResetOwnership>
@@ -106,21 +132,23 @@
     <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
     <PermanentDeath>false</PermanentDeath>
     <AutoSaveInMinutes>5</AutoSaveInMinutes>
+    <EnableSaving>true</EnableSaving>
+    <InfiniteAmmo>false</InfiniteAmmo>
+    <EnableContainerDrops>true</EnableContainerDrops>
     <SpawnShipTimeMultiplier>1</SpawnShipTimeMultiplier>
     <DestructibleBlocks>false</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
     <ViewDistance>20000</ViewDistance>
-    <FloraDensity>20</FloraDensity>
-    <VoxelGeneratorVersion>2</VoxelGeneratorVersion>
+    <VoxelGeneratorVersion>4</VoxelGeneratorVersion>
     <EnableOxygen>true</EnableOxygen>
+    <EnableOxygenPressurization>true</EnableOxygenPressurization>
     <Enable3rdPersonView>true</Enable3rdPersonView>
     <EnableEncounters>false</EnableEncounters>
-    <EnableFlora>false</EnableFlora>
-    <EnableStationVoxelSupport>false</EnableStationVoxelSupport>
+    <EnableConvertToStation>true</EnableConvertToStation>
+    <StationVoxelSupport>false</StationVoxelSupport>
     <EnableSunRotation>false</EnableSunRotation>
-    <DisableRespawnShips>false</DisableRespawnShips>
+    <EnableRespawnShips>true</EnableRespawnShips>
     <ScenarioEditMode>false</ScenarioEditMode>
-    <Battle>false</Battle>
     <Scenario>false</Scenario>
     <CanJoinRunning>false</CanJoinRunning>
     <PhysicsIterations>4</PhysicsIterations>
@@ -131,11 +159,113 @@
     <EnableVoxelDestruction>false</EnableVoxelDestruction>
     <MaxDrones>5</MaxDrones>
     <EnableDrones>false</EnableDrones>
-    <EnableCyberhounds>false</EnableCyberhounds>
+    <EnableWolfs>true</EnableWolfs>
     <EnableSpiders>false</EnableSpiders>
     <FloraDensityMultiplier>1</FloraDensityMultiplier>
+    <EnableStructuralSimulation>false</EnableStructuralSimulation>
+    <MaxActiveFracturePieces>50</MaxActiveFracturePieces>
+    <BlockTypeLimits>
+      <dictionary>
+        <item>
+          <Key>Assembler</Key>
+          <Value>24</Value>
+        </item>
+        <item>
+          <Key>Refinery</Key>
+          <Value>24</Value>
+        </item>
+        <item>
+          <Key>Blast Furnace</Key>
+          <Value>24</Value>
+        </item>
+        <item>
+          <Key>Antenna</Key>
+          <Value>30</Value>
+        </item>
+        <item>
+          <Key>Drill</Key>
+          <Value>30</Value>
+        </item>
+        <item>
+          <Key>InteriorTurret</Key>
+          <Value>50</Value>
+        </item>
+        <item>
+          <Key>GatlingTurret</Key>
+          <Value>50</Value>
+        </item>
+        <item>
+          <Key>MissileTurret</Key>
+          <Value>50</Value>
+        </item>
+        <item>
+          <Key>ExtendedPistonBase</Key>
+          <Value>50</Value>
+        </item>
+        <item>
+          <Key>MotorStator</Key>
+          <Value>50</Value>
+        </item>
+        <item>
+          <Key>MotorAdvancedStator</Key>
+          <Value>50</Value>
+        </item>
+        <item>
+          <Key>ShipWelder</Key>
+          <Value>100</Value>
+        </item>
+        <item>
+          <Key>ShipGrinder</Key>
+          <Value>150</Value>
+        </item>
+      </dictionary>
+    </BlockTypeLimits>
+    <EnableScripterRole>false</EnableScripterRole>
+    <MinDropContainerRespawnTime>5</MinDropContainerRespawnTime>
+    <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
+    <EnableTurretsFriendlyFire>false</EnableTurretsFriendlyFire>
+    <EnableSubgridDamage>false</EnableSubgridDamage>
+    <SyncDistance>3000</SyncDistance>
+    <ExperimentalMode>true</ExperimentalMode>
+    <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
+    <EnableVoxelHand>false</EnableVoxelHand>
+    <RemoveOldIdentitiesH>0</RemoveOldIdentitiesH>
+    <TrashRemovalEnabled>true</TrashRemovalEnabled>
+    <StopGridsPeriodMin>15</StopGridsPeriodMin>
+    <TrashFlagsValue>7706</TrashFlagsValue>
+    <AFKTimeountMin>0</AFKTimeountMin>
+    <BlockCountThreshold>20</BlockCountThreshold>
+    <PlayerDistanceThreshold>500</PlayerDistanceThreshold>
+    <OptimalGridCount>0</OptimalGridCount>
+    <PlayerInactivityThreshold>0</PlayerInactivityThreshold>
+    <PlayerCharacterRemovalThreshold>15</PlayerCharacterRemovalThreshold>
+    <VoxelTrashRemovalEnabled>false</VoxelTrashRemovalEnabled>
+    <VoxelPlayerDistanceThreshold>5000</VoxelPlayerDistanceThreshold>
+    <VoxelGridDistanceThreshold>5000</VoxelGridDistanceThreshold>
+    <VoxelAgeThreshold>24</VoxelAgeThreshold>
+    <EnableResearch>false</EnableResearch>
+    <EnableGoodBotHints>true</EnableGoodBotHints>
+    <OptimalSpawnDistance>900</OptimalSpawnDistance>
+    <EnableAutorespawn>true</EnableAutorespawn>
+    <EnableBountyContracts>true</EnableBountyContracts>
+    <EnableSupergridding>false</EnableSupergridding>
+    <EnableEconomy>false</EnableEconomy>
+    <DepositsCountCoefficient>2</DepositsCountCoefficient>
+    <DepositSizeDenominator>30</DepositSizeDenominator>
+    <HarvestRatioMultiplier>1</HarvestRatioMultiplier>
+    <TradeFactionsCount>15</TradeFactionsCount>
+    <StationsDistanceInnerRadius>10000000</StationsDistanceInnerRadius>
+    <StationsDistanceOuterRadiusStart>10000000</StationsDistanceOuterRadiusStart>
+    <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
+    <EconomyTickInSeconds>1200</EconomyTickInSeconds>
+    <SimplifiedSimulation>false</SimplifiedSimulation>
   </Settings>
-  <AppVersion>1122010</AppVersion>
+  <ScriptManagerData>
+    <variables>
+      <dictionary />
+    </variables>
+  </ScriptManagerData>
+  <AppVersion>1194207</AppVersion>
   <Factions>
     <Factions>
       <MyObjectBuilder_Faction>
@@ -153,31 +283,47 @@
         <JoinRequests />
         <AutoAcceptMember>true</AutoAcceptMember>
         <AutoAcceptPeace>false</AutoAcceptPeace>
-        <AcceptHumans>true</AcceptHumans>
+        <AcceptHumans>false</AcceptHumans>
         <EnableFriendlyFire>false</EnableFriendlyFire>
+        <FactionType>Trader</FactionType>
+        <Stations />
+        <CustomColor x="0" y="-0.8" z="-0.450000018" />
+        <IconColor x="0" y="0" z="0" />
+        <FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon>
+        <TransferedPCUDelta>0</TransferedPCUDelta>
       </MyObjectBuilder_Faction>
     </Factions>
     <Players>
       <dictionary>
         <item>
-          <Key xsi:type="xsd:long">144115188075855907</Key>
-          <Value xsi:type="xsd:long">263788454219859648</Value>
+          <Key>144115188075855907</Key>
+          <Value>263788454219859648</Value>
         </item>
       </dictionary>
     </Players>
     <Relations />
+    <RelationsWithPlayers />
     <Requests />
+    <PlayerToFactionsVis>
+      <MyObjectBuilder_FactionsVisEntry>
+        <PlayerId>76561198009490124</PlayerId>
+        <SerialId>0</SerialId>
+        <DiscoveredFactions>
+          <long>263788454219859648</long>
+        </DiscoveredFactions>
+      </MyObjectBuilder_FactionsVisEntry>
+    </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem>
-      <Name>ExtraWindowsDev</Name>
+    <ModItem FriendlyName="ExtraWindows">
+      <Name>ExtraWindows</Name>
     </ModItem>
   </Mods>
-  <PromotedUsers />
-  <Scenario>
-    <TypeId>MyObjectBuilder_ScenarioDefinition</TypeId>
-    <SubtypeId>EmptyWorld</SubtypeId>
-  </Scenario>
+  <PromotedUsers>
+    <dictionary />
+  </PromotedUsers>
+  <CreativeTools />
+  <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
     <MyObjectBuilder_Identity>
@@ -185,191 +331,474 @@
       <DisplayName>Jaken Veina</DisplayName>
       <CharacterEntityId>152508250267203973</CharacterEntityId>
       <Model>Default_Astronaut</Model>
-      <ColorMask x="0" y="-1" z="0" />
+      <ColorMask x="0.25" y="-0.200229466" z="7.450581E-09" />
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2020-04-26T18:12:57.9544222-05:00</LastLoginTime>
+      <SavedCharacters>
+        <long>152508250267203973</long>
+      </SavedCharacters>
+      <LastLogoutTime>2020-04-26T18:13:46.0243305-05:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855874</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855875</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855876</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855877</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855878</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855879</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855880</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855881</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855882</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855883</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855884</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855885</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855886</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855887</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855888</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855889</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855890</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855891</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855892</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855893</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855894</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855895</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855896</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855897</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855898</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855899</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855900</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855901</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855902</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855903</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855904</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855905</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855906</IdentityId>
       <DisplayName>Neutral NPC</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>0001-01-01T00:00:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855907</IdentityId>
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
+      <BlockLimitModifier>0</BlockLimitModifier>
+      <LastLoginTime>2020-04-26T18:12:57.9694412-05:00</LastLoginTime>
+      <SavedCharacters />
+      <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
+      <RespawnShips />
+      <LastDeathPosition xsi:nil="true" />
+      <ActiveContracts />
+      <TransferedPCUDelta>0</TransferedPCUDelta>
     </MyObjectBuilder_Identity>
   </Identities>
   <PreviousEnvironmentHostility>SAFE</PreviousEnvironmentHostility>
   <AllPlayersData>
     <dictionary>
       <item>
-        <Key xsi:type="PlayerId">
+        <Key>
           <ClientId>76561198009490124</ClientId>
           <SerialId>0</SerialId>
         </Key>
-        <Value xsi:type="MyObjectBuilder_Player">
+        <Value>
           <DisplayName>Jaken Veina</DisplayName>
           <IdentityId>144115188075855873</IdentityId>
           <Connected>true</Connected>
+          <ForceRealPlayer>false</ForceRealPlayer>
           <Toolbar>
             <ToolbarType>Character</ToolbarType>
             <SelectedSlot xsi:nil="true" />
@@ -378,53 +807,75 @@
                 <Index>0</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-                    <SubtypeId>Window1x1Flat</SubtypeId>
-                  </DefinitionId>
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1Flat" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>1</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-                    <SubtypeId>Window1x1FlatInv</SubtypeId>
-                  </DefinitionId>
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="Window1x1FlatInv" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Gyro" Subtype="LargeBlockGyro" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Reactor" Subtype="LargeBlockSmallGenerator" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>7</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-                    <SubtypeId>AngleGrinder4Item</SubtypeId>
-                  </DefinitionId>
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinder4Item" />
                 </Data>
               </Slot>
               <Slot>
                 <Index>8</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-                    <SubtypeId>Welder4Item</SubtypeId>
-                  </DefinitionId>
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="Welder4Item" />
                 </Data>
               </Slot>
             </Slots>
+            <SlotsGamepad />
           </Toolbar>
-          <CharacterCameraData EntityId="0">
-            <IsFirstPerson>true</IsFirstPerson>
-            <Distance>0</Distance>
-            <HeadAngle xsi:nil="true" />
-          </CharacterCameraData>
           <EntityCameraData>
             <CameraControllerSettings EntityId="140457738421399196">
               <IsFirstPerson>true</IsFirstPerson>
               <Distance>109.67433166503906</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="152508250267203973">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>2.5</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="86775382134590505">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>14.927885760750804</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
@@ -500,12 +951,11 @@
               <Z>-0.3</Z>
             </Vector3>
           </BuildColorSlots>
+          <BuildColorSlot>0</BuildColorSlot>
         </Value>
       </item>
     </dictionary>
   </AllPlayersData>
-  <ChatHistory />
-  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855907</long>
   </NonPlayerIdentities>
@@ -513,46 +963,469 @@
     <dictionary />
   </Gps>
   <SessionComponents>
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
-      <MarkedAreas />
-      <ExistingObjectsSeeds />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_LocalizationSessionComponent">
+      <AdditionalPaths />
+      <CampaignPaths />
+      <CampaignModFolderName />
+      <Language>English</Language>
     </MyObjectBuilder_SessionComponent>
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SharedStorageComponent">
+      <ExistingFieldsAndStaticAttribute>
+        <dictionary />
+      </ExistingFieldsAndStaticAttribute>
+      <BoolStorage>
+        <dictionary />
+      </BoolStorage>
+      <IntStorage>
+        <dictionary />
+      </IntStorage>
+      <LongStorage>
+        <dictionary />
+      </LongStorage>
+      <StringStorage>
+        <dictionary />
+      </StringStorage>
+      <FloatStorage>
+        <dictionary />
+      </FloatStorage>
+      <Vector3DStorage>
+        <dictionary />
+      </Vector3DStorage>
+      <BoolListStorage>
+        <dictionary />
+      </BoolListStorage>
+      <IntListStorage>
+        <dictionary />
+      </IntListStorage>
+      <LongListStorage>
+        <dictionary />
+      </LongListStorage>
+      <StringListStorage>
+        <dictionary />
+      </StringListStorage>
+      <FloatListStorage>
+        <dictionary />
+      </FloatListStorage>
+      <Vector3DListStorage>
+        <dictionary />
+      </Vector3DListStorage>
+    </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpaceFaunaComponent">
       <SpawnInfos />
       <TimeoutInfos />
     </MyObjectBuilder_SessionComponent>
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_ScriptManager">
-      <variables>
-        <dictionary />
-      </variables>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CampaignSessionComponent">
+      <IsVanilla>false</IsVanilla>
+      <Mod />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MyIGCSystemSessionComponent">
+      <ActiveProgrammableBlocks />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
+      <BaseSunDirection x="0.407620817" y="0.7062343" z="-0.578859568" />
+      <WeatherPlanetData />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentAssetModifiers" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentContainerDropSystem">
+      <Definition Type="MyObjectBuilder_ContainerDropSystemDefinition" Subtype="Default" />
+      <PlayerData />
+      <GPSForRemoval />
+      <EntitiesForRemoval />
+      <ContainerIdSmall>1</ContainerIdSmall>
+      <ContainerIdLarge>1</ContainerIdLarge>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentContractSystem">
+      <Definition Type="MyObjectBuilder_SessionComponentContractSystemDefinition" Subtype="Default" />
+      <InactiveContracts />
+      <ActiveContracts />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CutsceneSessionComponent">
+      <Cutscenes />
+      <VoxelPrecachingWaypointNames />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_MySessionComponentDLC" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentEconomy">
+      <Definition Type="MyObjectbuilder_SessionComponentEconomyDefinition" Subtype="Default" />
+      <GenerateFactionsOnStart>true</GenerateFactionsOnStart>
+      <AnalysisTotalCurrency>0</AnalysisTotalCurrency>
+      <AnalysisCurrencyFaucet>0</AnalysisCurrencyFaucet>
+      <AnalysisCurrencySink>0</AnalysisCurrencySink>
+      <CurrencyGeneratedThisTick>0</CurrencyGeneratedThisTick>
+      <CurrencyDestroyedThisTick>0</CurrencyDestroyedThisTick>
+      <AnalysisPerPlayerCurrency />
+      <AnalysisPerFactionCurrency />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentGameInventory" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentReplay">
+      <EntityReplayData />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentResearch">
+      <WhitelistMode>false</WhitelistMode>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_VisualScriptManagerSessionComponent">
+      <FirstRun>false</FirstRun>
+      <LevelScriptFiles xsi:nil="true" />
+      <StateMachines xsi:nil="true" />
+      <Questlog>
+        <LineData>
+          <MultilineData>
+            <Completed>false</Completed>
+            <IsObjective>false</IsObjective>
+            <Data>In zero gravity you can use your magnetic boots to walk on any surface. Position yourself with your feet down and turn off your jetpack to automatically lock your magnetic boots.</Data>
+            <CharactersDisplayed>-1</CharactersDisplayed>
+          </MultilineData>
+          <MultilineData>
+            <Completed>false</Completed>
+            <IsObjective>true</IsObjective>
+            <Data>Use your magnetic boots in zero gravity.</Data>
+            <CharactersDisplayed>-1</CharactersDisplayed>
+          </MultilineData>
+        </LineData>
+        <Title>Good.bot: Magnetic Boots</Title>
+        <Visible>false</Visible>
+        <IsUsedByVisualScripting>false</IsUsedByVisualScripting>
+      </Questlog>
+      <ExclusiveHighlights>
+        <ExclusiveHighlightData />
+      </ExclusiveHighlights>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
+      <TimeSinceLastEventInMs>76800</TimeSinceLastEventInMs>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
+      <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
+      <LastCoordSysId>2</LastCoordSysId>
+      <CoordSystems />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_BankingSystem">
+      <Definition Type="MyObjectBuilder_BankingSystemDefinition" Subtype="BankingSystem" />
+      <Accounts>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855873</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855873</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855874</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855874</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855875</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855875</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855876</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855876</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855877</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855877</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855878</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855878</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855879</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855879</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855880</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855880</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855881</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855881</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855882</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855882</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855883</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855883</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855884</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855884</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855885</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855885</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855886</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855886</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855887</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855887</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855888</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855888</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855889</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855889</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855890</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855890</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855891</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855891</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855892</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855892</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855893</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855893</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855894</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855894</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855895</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855895</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855896</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855896</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855897</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855897</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855898</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855898</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855899</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855899</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855900</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855900</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855901</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855901</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855902</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855902</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855903</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855903</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855904</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855904</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855905</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855905</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855906</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855906</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>144115188075855907</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>144115188075855907</OwnerIdentifier>
+            <Balance>10000</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+        <MyObjectBuilder_AccountEntry>
+          <OwnerIdentifier>263788454219859648</OwnerIdentifier>
+          <Account>
+            <OwnerIdentifier>263788454219859648</OwnerIdentifier>
+            <Balance>0</Balance>
+            <Log />
+          </Account>
+        </MyObjectBuilder_AccountEntry>
+      </Accounts>
+      <OverallBalance>350000</OverallBalance>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_NeutralShipSpawner">
+      <ShipsInProgress />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
       <PiratesIdentity>144115188075855907</PiratesIdentity>
       <Drones />
     </MyObjectBuilder_SessionComponent>
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
-      <LastCoordSysId>2</LastCoordSysId>
-      <CoordSystems>
-        <CoordSysInfo>
-          <Id>1</Id>
-          <EntityCount>31</EntityCount>
-          <Rotation x="0" y="0" z="0" w="1" />
-          <Position x="12.5" y="-15" z="0" />
-        </CoordSysInfo>
-      </CoordSystems>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_Encounters">
+      <SavedEncounters />
     </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
+      <MarkedAreas />
+      <DeletedAreas />
+      <ExistingObjectsSeeds />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SessionComponentSafeZones">
+      <AllowedActions>All</AllowedActions>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent" />
   </SessionComponents>
+  <GameDefinition Type="MyObjectBuilder_GameDefinition" Subtype="Default" />
+  <SessionComponentEnabled />
+  <SessionComponentDisabled />
   <MissionTriggers>
     <Triggers>
       <dictionary>
         <item>
-          <Key xsi:type="pair">
+          <Key>
             <stm>76561198009490124</stm>
             <ser>0</ser>
           </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+          <Value>
             <WinTriggers />
             <LoseTriggers />
             <Won>false</Won>
@@ -560,11 +1433,11 @@
           </Value>
         </item>
         <item>
-          <Key xsi:type="pair">
+          <Key>
             <stm>0</stm>
             <ser>0</ser>
           </Key>
-          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+          <Value>
             <WinTriggers />
             <LoseTriggers />
             <Won>false</Won>
@@ -574,5 +1447,298 @@
       </dictionary>
     </Triggers>
   </MissionTriggers>
-  <IsAISchoolScenario>false</IsAISchoolScenario>
+  <CustomSkybox />
+  <VicinityModelsCache>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_2CornerOpp.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_4Corner_Constr2.mwm</string>
+    <string>Models\Cubes\Large\OxygenStorage.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_2CornerAdj.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_2CornerAdj_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_1Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_1Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_2CornerOpp_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_2CornerOpp_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_2CornerAdj_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_1Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_3Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_4Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_4Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_3Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_4Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_3Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_1CornerRight.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_1CornerRight_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_1CornerRight_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_1CornerLeft.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_1CornerLeft_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_1CornerLeft_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_2Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_2Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_1Edge_2Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeAdj_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeOpp_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeAdj_1Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeAdj_1Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_0Edge_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeAdj_1Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeAdj_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeAdj_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_3Edge_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeOpp_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_2EdgeOpp_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_3Edge_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1FlatInv_3Edge_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_1Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_1Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_1Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_2CornerAdj_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_2CornerAdj_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_2CornerAdj.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_2CornerOpp_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_2CornerOpp_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_2CornerOpp.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_3Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_3Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_3Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_4Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_0Edge_4Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_1CornerRight_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_1CornerRight_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_1CornerRight.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_1CornerLeft_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_1CornerLeft_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_1CornerLeft.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_2Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_2Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_1Edge_2Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeAdj_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeAdj_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeAdj_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeAdj_1Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeAdj_1Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeAdj_1Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeOpp_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeOpp_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_2EdgeOpp_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_3Edge_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_3Edge_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_3Edge_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Flat_Constr1.mwm</string>
+    <string>Models\Cubes\Large\OxygenPressurizer.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeRight_0Corner.mwm</string>
+    <string>Models\Cubes\Large\GravityGenerator.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeBottom_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeBottom_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeRight_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_2EdgeRight_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_2EdgeRight_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_1Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_1Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_1Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_1Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_1Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_0Corner_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Side_1Edge_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_0Corner.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_0Corner_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SideInv_1Edge_0Corner_Constr1.mwm</string>
+    <string>Models\Cubes\Large\GeneratorSmall.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_1CUL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_1CUL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_1CUL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_1CUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_1CUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_1CUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CULUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CULUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CULUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CULDR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CULDR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CULDR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CURDL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CURDL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_2CURDL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_3CULURDL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_3CULURDL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_3CULURDL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_3CULURDR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_3CULURDR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_3CULURDR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_4C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_4C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_0E_4C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_1CUL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_1CUL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_1CUL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_1CUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_1CUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_1CUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_2CULUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_2CULUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1ED_2CULUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_1CUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_1CUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_1CUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_1CDR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_1CDR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_1CDR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_2CURDR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_2CURDR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_1EL_2CURDR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EUD_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EUD_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EUD_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDL_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDL_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDL_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDL_1CUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDL_1CUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDL_1CUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDR_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDR_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDR_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDR_1CUL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDR_1CUL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2EDR_1CUL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2ELR_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2ELR_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_2ELR_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_3EUDR_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_3EUDR_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_3EUDR_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_3EDLR_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_3EDLR_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1Slope_3EDLR_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_3CULURDR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_3CULURDR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_3CULURDR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_1CUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_4C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_2CULUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_1CUL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_4C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_2CULUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_1CUL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_4C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_2CULUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_1CUL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_1CUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1ED_1CUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_1CDR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_1CUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_2CURDR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_1CUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_1CDR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_2CURDR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_1CUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_1CDR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_1EL_2CURDR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDL_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EUD_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDR_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDL_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EUD_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDL_1CUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDL_1CUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EUD_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_3EUDR_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDL_1CUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDL_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_3EUDR_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDR_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2ELR_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_3EUDR_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDR_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2ELR_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_3EDLR_0C.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDR_1CUL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDR_1CUL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_3EDLR_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2EDR_1CUL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_2ELR_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_3EDLR_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_3CULURDL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_3CULURDL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_3CULURDL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CURDL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CURDL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CURDL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CULDR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CULDR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CULDR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CULUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CULUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_2CULUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_1CUR_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_1CUR_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_1CUR.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_1CUL_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_1CUL_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_1CUL.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_0C_Constr1.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_0C_Constr2.mwm</string>
+    <string>C:\Users\Jake\AppData\Roaming\SpaceEngineers\Mods\ExtraWindows\Models\Cubes\Large\ExtraWindows\Window1x1SlopeInv_0E_0C.mwm</string>
+    <string>Models\Cubes\Large\CockpitLarge.mwm</string>
+    <string>Models\Cubes\Large\gyroscope.mwm</string>
+  </VicinityModelsCache>
+  <VicinityArmorModelsCache>
+    <string>Models\Cubes\Large\Armor\SquarePlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleLeftPlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\FaceTrianglePlate.mwm</string>
+    <string>Models\Cubes\Large\Armor\CornerTriangleRightPlate.mwm</string>
+  </VicinityArmorModelsCache>
+  <VicinityVoxelCache />
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
